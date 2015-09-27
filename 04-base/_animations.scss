@@ -1,0 +1,63 @@
+.menu-wrapper,.footer-wrapper{
+	a{@include transition(all 0.3s ease)}
+}
+
+.sub-title--dot.hiddenDots:before{
+	@include translateY(-50px);
+	opacity:0;
+}
+.sub-title--dot.animated:before{
+	@include translateY(0);
+	@include transition(all 0.5s cubic-bezier(0.680, -0.550, 0.265, 1.550));
+	opacity:1;
+}
+
+.component__circles{
+	#first-circle,#second-circle{
+		@include transition(all 1s ease);
+	}
+ 
+	#first-circle{
+		&.rotated{
+			@include rotate(-180deg);	
+		}
+		&.animated{
+			@include rotate(0);	
+		}
+	}
+	#second-circle{
+		&.rotated{
+			@include rotate(180deg);
+		}
+		&.animated{
+			@include rotate(0); 
+		}
+	}
+	.component__circle--first,
+	.component__circle--second{
+		> div{
+			opacity:0;
+			@include transition(all 0.5s ease);
+
+			&.animated{opacity:1;}
+		}
+
+	}
+}
+svg#graph{
+	.circle{
+		opacity:0;
+		@include transition(all 0.5s ease); 
+		&.animated{
+			opacity:1;
+		} 
+	}
+}
+.featured-services__services{
+	> div{
+		opacity:0;
+		@include transition(all 0.5s ease);
+
+		&.animated{opacity:1;}
+	}
+}

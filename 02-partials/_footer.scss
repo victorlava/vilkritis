@@ -1,0 +1,143 @@
+.row-full {
+  width:100%;
+  padding-left:1em;
+  padding-right:1em;
+  @include grid-row($behavior: nest); // Other options include collapse and nest-collapse.
+  margin:0; 
+}
+
+#footer{
+	background-color:$silver;
+	padding-top:rem-calc(34px);
+	padding-bottom:rem-calc(17px);
+	text-align:center;
+	a:hover,a:active{
+		color:rgba(255,255,255,0.8);
+		i{color:rgba(255,255,255,0.8);}
+	}
+	@media #{$large-up} {
+		//padding-top:1.8em;
+	}
+
+
+	ul{
+		margin:0;
+		list-style: none;
+		li{}
+	} 
+
+	.footer__left,.footer__right{
+		
+		padding-left:0;padding-right:0;
+	}
+
+
+
+	.footer__left{
+		@media #{$large-up} {text-align: left;}
+		.footer__title, ul li{padding-bottom:.77em;}
+		.footer__title{font-size:rem-calc(16px);}
+		ul li{font-size:rem-calc(15px);line-height: 1.6;}
+		> div{padding-bottom:1.37em;}
+	}
+	.footer__right{
+		@media #{$large-up} {
+			text-align:right;	
+		}
+		> div{
+			padding-bottom:rem-calc(22px);
+		}
+	}
+
+	.footer__social{
+		.footer__title{font-size:rem-calc(18px);}
+		ul{
+			width: 130px;
+		    left: 0;
+		    right: 0;
+		    margin: auto;
+		    display: table;
+		    @media #{$large-up} {
+		    	float:right;
+		    	width:auto;
+		    }
+
+			li{padding-left:rem-calc(18px);margin-left:0;}
+		}
+	}
+	.footer__information{
+
+	}
+
+	.footer__last-list{
+		li{font-weight:bold;}
+	}
+	footer p{
+		font-size:rem-calc(12px);
+		@media #{$large-up} {text-align: left;}
+	} 
+}
+
+.title--bold{
+	font-weight:bold;
+}
+
+.contact-block{
+	border-top:2px dotted rgba(255,255,255,0.5);
+	padding:1em 0;
+	    margin: .5em;
+	&:first-child{border-top:0;}
+
+	.contact-block__title{
+		font-size:rem-calc(15px);
+	}
+	p{
+		font-size:rem-calc(12px);
+		margin:0;
+	}
+}
+/*
+.footer-wrapper{
+	padding-top:1.8em;
+	padding-bottom:0;
+
+	@media #{$large-up} {
+		padding-top:1.8em;
+	} 
+	.logo-div{
+		margin-bottom:1.5em;
+		.logo-wrapper{
+			padding-left:1.2em; 
+		}
+	}
+
+	.component__office{
+		background-color:rgba(0,0,0,0.1);
+		padding-top: 3em;
+
+		@media #{$medium-up} {
+			padding-top:0;
+			background-color:inherit;
+		} 
+
+	}
+
+	.logo-wrapper{
+		opacity:0.5;
+		img{max-width: 60px;}
+		&:hover,&:active{opacity: 1;}
+	}
+	.menu-list{
+		font-size:rem-calc(12px);
+		font-weight:400;
+
+		li{padding-bottom:1.77em;list-style: none;}
+	}
+
+	a:hover,a:focus{color:rgba(255,255,255,0.57);}
+
+
+ 	.footer__nav{
+ 		padding:1.5em 0;
+ 	}
+}*/
