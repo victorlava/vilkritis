@@ -1,0 +1,49 @@
+@import "./scss/settings";
+@import "./scss/base";
+
+@import "fonts";
+@import "sprites";
+@import "./bower_components/angularjs-slider/dist/rzslider.scss";
+ 
+@include sprites($spritesheet-sprites);  
+
+#ketoCat-ideal-weight{ 
+	width: 700px;
+
+	> div{
+		float: left;
+		display: inline-block;
+	} 
+
+	.ketoCat-results{
+		width: 30%;
+		position: relative;
+	}
+
+	.ketoCat-calculator{
+		width: 70%;
+
+		.ketoCat-form-wrapper{
+			.ketoCat-report{
+				.ketoCat-item{padding-bottom: 0;margin-bottom: .7em;}
+				label{
+					display: inline-block;
+					font-size: 16px;
+					&.pull-right{
+						background: $primary-color;
+					    border-radius: 10px;
+					    padding: 2px 6px;
+					    color: #FFF;
+					    font-size: 14px;
+					    &.default{
+					    	background: #fafafa;
+					    	color:#9a8c85;
+					    }
+					}
+				}
+			}
+
+		}
+	}
+
+}

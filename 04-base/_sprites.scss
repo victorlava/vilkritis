@@ -1,0 +1,101 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$keto-cat-girl-name: 'ketoCat-girl';
+$keto-cat-girl-x: 0px;
+$keto-cat-girl-y: 0px;
+$keto-cat-girl-offset-x: 0px;
+$keto-cat-girl-offset-y: 0px;
+$keto-cat-girl-width: 150px;
+$keto-cat-girl-height: 552px;
+$keto-cat-girl-total-width: 300px;
+$keto-cat-girl-total-height: 552px;
+$keto-cat-girl-image: '../../img/sprites.png';
+$keto-cat-girl: (0px, 0px, 0px, 0px, 150px, 552px, 300px, 552px, '../../img/sprites.png', 'ketoCat-girl', );
+$keto-cat-guy-name: 'ketoCat-guy';
+$keto-cat-guy-x: 150px;
+$keto-cat-guy-y: 0px;
+$keto-cat-guy-offset-x: -150px;
+$keto-cat-guy-offset-y: 0px;
+$keto-cat-guy-width: 150px;
+$keto-cat-guy-height: 552px;
+$keto-cat-guy-total-width: 300px;
+$keto-cat-guy-total-height: 552px;
+$keto-cat-guy-image: '../../img/sprites.png';
+$keto-cat-guy: (150px, 0px, -150px, 0px, 150px, 552px, 300px, 552px, '../../img/sprites.png', 'ketoCat-guy', );
+$spritesheet-width: 300px;
+$spritesheet-height: 552px;
+$spritesheet-image: '../../img/sprites.png';
+$spritesheet-sprites: ($keto-cat-girl, $keto-cat-guy, );
+$spritesheet: (300px, 552px, '../../img/sprites.png', $spritesheet-sprites, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
