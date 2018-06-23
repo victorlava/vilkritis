@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <blockquote class="quote">
-                <h3>Daiktai turi būti paprasti kiek galima. <br> Bet ne paprastesni.</h3>
+                <h3 class="title">Daiktai turi būti paprasti kiek galima. <br> Bet ne paprastesni.</h3>
                 <cite>Albert Einstein</cite>
             </blockquote>
         </div>

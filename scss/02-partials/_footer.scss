@@ -1,6 +1,10 @@
 .footer {
     padding: 5.3rem 0;
 
+    p {
+        max-width: 380px;
+    }
+
     p, a {
         font-size: 18px;
         font-weight: 300;

@@ -5,7 +5,7 @@
 					<a href="/" class="logo">
 						<img src="/img/logo.png" alt="">
 					</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
 				<div class="col-sm-6 col-md-3">
 					<h6 class="title">Menu</h6>

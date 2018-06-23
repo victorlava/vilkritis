@@ -14,7 +14,7 @@
             </h1>
         </section>
 
-        <section class="section section-featured section-offset">
+        <section class="section section-featured">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-6 offset-section-left">
@@ -65,11 +65,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <img src="/img/furniture.png" alt="">
-                    </div>
-                    <div class="col-xs-12 col-md-6">
                         <h2>Išskirtinumo pavadinimas</h2>
                         <p class="spaced">Lorem ipsum dolor</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img src="/img/furniture.png" alt="">
                     </div>
                 </div>
             </div>
