@@ -8,8 +8,9 @@
 
     .cta {
         text-align: center;
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
             display: flex;
+            text-align: left;
             justify-content: space-between;
         }
     }
@@ -27,7 +28,7 @@
         top: 40px;
         position: relative;
 
-        @include media-breakpoint-up(md) {
+        @include media-breakpoint-up(lg) {
             display: block;
         }
 

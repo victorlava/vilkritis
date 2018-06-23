@@ -1,13 +1,13 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12 col-md-6">
+				<div class="col-xs-12 col-md-12 col-lg-6">
 					<a href="/" class="logo">
 						<img src="/img/logo.png" alt="">
 					</a>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 				</div>
-				<div class="col-xs-12 col-md-3">
+				<div class="col-xs-12 col-md-6 col-lg-3">
 					<h6 class="title">Menu</h6>
 					<ul>
 						<li>
@@ -21,7 +21,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-xs-12 col-md-3">
+				<div class="col-xs-12 col-md-6 col-lg-3">
 					<h6 class="title">
 						Susisiekite
 					</h6>
