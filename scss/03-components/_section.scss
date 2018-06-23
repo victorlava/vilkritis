@@ -5,6 +5,7 @@
 
     &.section-intro {
         height: 100vh;
+        min-height: 500px;
         background-image: url('/img/background-intro.png');
         background-size: cover;
         background-position: center center;
@@ -16,6 +17,34 @@
         background-color: rgba(0,0,0,0.7);
 
         span { display: block; }
+    }
+
+    &.section-gallery {
+        position: relative;
+        left: -100px;
+        padding: 5rem 0;
+
+        .section-gallery-background {
+            background-image: url('/img/gallery.png');
+            background-size: cover;
+            background-position: center center;
+            height: calc(258px + 1.5rem);
+            display: block;
+            content: " ";
+
+            &.big { height: 800px; }
+        }
+
+        .section-gallery-text {
+            margin: 1rem 0;
+            background-color: black;
+            padding: 1.5rem 0 1.5rem 7rem;
+
+            h2, p { margin: 0;}
+
+            h2 { color: white; line-height: 1; }
+            p { color: #abacaf; }
+        }
     }
 
     &.section-featured {

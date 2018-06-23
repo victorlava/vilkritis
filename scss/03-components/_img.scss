@@ -18,6 +18,17 @@
 
     }
 
+    &.img-line:before {
+        content: " ";
+        height: 1px;
+        background-color: #828790;
+        top: 50%;
+        position: absolute;
+        z-index: 2;
+        left: -10%;
+        width: 30%;
+    }
+
     &.img-wooden-circle:after {
         display: none;
         content: " ";

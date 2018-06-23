@@ -89,14 +89,19 @@
             </div>
         </section>
 
-        <section class="section section-gallery section-offset">
+        <section class="section section-gallery">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img src="/" alt="">
+                    <div class="col-xs-12 col-md-6 offset-section-left">
+                        <div class="section-gallery-background big"></div>
                     </div>
                     <div class="col-xs-12 col-md-6">
-
+                        <div class="section-gallery-background"></div>
+                        <div class="section-gallery-text img img-line">
+                            <h2>Mūsų darbų pavyzdžiai</h2>
+                            <p class="spaced">Lorem ipsum dolor</p>
+                        </div>
+                        <div class="section-gallery-background"></div>
                     </div>
                 </div>
             </div>
