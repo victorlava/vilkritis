@@ -1,0 +1,41 @@
+html {
+    @include media-breakpoint-down(sm) {
+        border: 12px solid white;
+    }
+}
+
+body {
+    background: grey;
+    margin: 0;
+}
+
+main {
+    z-index: 0;
+    position: relative;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    transition: color .2s ease;
+}
+
+ul, blockquote {
+    margin: 0;
+    padding: 0;
+}
+
+
+blockquote {
+
+    footer {
+        display: inline;
+    }
+}
+
+.logo {
+    max-width: 57px;
+    height: auto;
+}
