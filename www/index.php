@@ -17,8 +17,10 @@
         <section class="section section-featured section-offset">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img src="/img/furniture.png" alt="">
+                    <div class="col-xs-12 col-md-6 offset-section-left">
+                        <div class="img img-wooden img-styling-right">
+                            <img src="/img/furniture.png" alt="">
+                        </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <h2>Apie mus</h2>

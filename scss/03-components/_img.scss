@@ -1,0 +1,19 @@
+.img {
+    position: relative;
+
+    &.img-wooden:before {
+        content: " ";
+        display: block;
+        background-image: url('/img/line-wooden.png');
+        background-size: cover;
+        height: 8px;
+        width: 40%;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+    }
+
+    &.img-styling-right:before {
+        right: -35%;
+    }
+}
