@@ -16,6 +16,10 @@
         span { display: block; }
     }
 
+    &.section-featured {
+        padding: 5rem 0 2.5rem 0;
+    }
+
     &.section-quote {
         background-image: url('/img/background-intro.png');
         background-size: cover;
@@ -26,4 +30,10 @@
         margin: 2rem 0;
     }
 
+    .row div:nth-child(1) > .content { padding-left: 0;}
+
+}
+
+.content {
+    padding: 0rem 4rem;
 }

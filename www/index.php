@@ -23,9 +23,11 @@
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <h2>Apie mus</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+                        <div class="content">
+                            <h2>Apie mus</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -37,25 +39,15 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <h2>Išskirtinumo pavadinimas</h2>
-                        <p class="spaced">Lorem ipsum dolor</p>
+                        <div class="content">
+                            <h2>Išskirtinumo pavadinimas</h2>
+                            <p class="spaced">Lorem ipsum dolor</p>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <img src="/img/furniture.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img src="/img/furniture.png" alt="">
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <h2>Išskirtinumo pavadinimas</h2>
-                        <p class="spaced">Lorem ipsum dolor</p>
+                        <div class="img img-wooden img-styling-left">
+                            <img src="/img/furniture.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -65,11 +57,33 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <h2>Išskirtinumo pavadinimas</h2>
-                        <p class="spaced">Lorem ipsum dolor</p>
+                        <div class="img img-wooden img-styling-right">
+                            <img src="/img/furniture.png" alt="">
+                        </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <img src="/img/furniture.png" alt="">
+                        <div class="content">
+                            <h2>Išskirtinumo pavadinimas</h2>
+                            <p class="spaced">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <div class="content">
+                            <h2>Išskirtinumo pavadinimas</h2>
+                            <p class="spaced">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="img img-wooden img-styling-left">
+                            <img src="/img/furniture.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
