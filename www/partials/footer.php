@@ -5,15 +5,10 @@
 					<a href="/" class="logo">
 						<img src="/img/logo.png" alt="">
 					</a>
-
-					<blockquote>
-					 	<span>Dizainas nėra tai, kaip tai atrodo ar ką primena.</span>
-						<span>Dizainas yra tai, kaip tai veikia.</span>
-						<footer>- Steve Jobs</footer>
-					</blockquote >
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				</div>
 				<div class="col-sm-6 col-md-3">
-					<h4 class="title">Menu</h5>
+					<h6 class="title">Menu</h6>
 					<ul>
 						<li>
 							<a href="#">Procesas</a>
@@ -27,9 +22,9 @@
 					</ul>
 				</div>
 				<div class="col-sm-6 col-md-3">
-					<h4 class="title">
+					<h6 class="title">
 						Susisiekite
-					</h4>
+					</h6>
 					<ul>
 						<li>
 							<a href="mailto:info@aredodeko.lt">info@aredodeko.lt</a>

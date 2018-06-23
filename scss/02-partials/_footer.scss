@@ -1,4 +1,29 @@
 .footer {
+    padding: 5.3rem 0;
 
+    p, a {
+        font-size: 18px;
+        font-weight: 300;
+        opacity: 0.8;
+        margin-top: 0;
+        line-height: 1.7;
+    }
 
+    .logo {
+        font-size: $font-size-6;
+        margin-bottom: 1rem;
+        display: block;
+    }
+
+    .title { margin-top: 0; }
+
+    ul {
+        list-style: none;
+        a {
+            padding: .5px 0;
+            display: block;
+            letter-spacing: 3.6px;
+            &:first-child { padding-top: 0; }
+        }
+    }
 }
