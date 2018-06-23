@@ -16,23 +16,33 @@
     }
 
     .title {
-        font-size: 26px;
+        font-size: 16px;
         font-family: $secondary-font;
         letter-spacing: 4px;
+        @include media-breakpoint-up(xl) {
+            font-size: 26px;
+        }
     }
 
     .arrow {
         display: none;
         height: 1px;
         background-color: white;
-        top: 40px;
+        top: 26px;
         position: relative;
 
         @include media-breakpoint-up(lg) {
             display: block;
         }
 
+        @include media-breakpoint-up(xl) {
+            top: 40px;
+        }
+
         &.arrow-left {
+            @include media-breakpoint-up(lg) {
+                width: 15%;
+            }
             width: 30%;
         }
 
@@ -47,7 +57,7 @@
                 display: block;
                 position: relative;
                 top: -38px;
-                left: 54px;
+                left: 55px;
             }
         }
     }
@@ -56,5 +66,8 @@
         color: white;
         line-height: 1.6;
         margin: 0 30px;
+        @include media-breakpoint-down(lg) {
+            font-size: 30px;
+        }
     }
 }

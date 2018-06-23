@@ -35,12 +35,13 @@
     }
 
     .row div:nth-child(1) > .content { padding-left: 0;}
+    .row div:nth-child(2) > .content { padding-right: 0; }
 
 }
 
 .content {
     @include media-breakpoint-up(lg) {
-        padding: 0rem 4rem;
+        padding: 0rem 10rem;
     }
 }
 
