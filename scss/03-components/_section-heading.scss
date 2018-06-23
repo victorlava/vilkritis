@@ -1,0 +1,55 @@
+.section-heading {
+    position: relative;
+    background-image: url('/img/background-intro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    height: 650px;
+
+    h1 { margin-top: 4rem; }
+
+
+    @include media-breakpoint-up(md) {
+        background-position-x: -10rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin: 2rem 0;
+        background-position-x: -27rem;
+    }
+
+    &.section-heading-xs {
+        height: auto;
+    }
+
+    .section-page-background {
+        display: none;
+        background-image: url('/img/background-intro');
+        background-color: rgba(0,0,0,0.5);
+        background-size: cover;
+        background-position: center center;
+        width: 30%;
+        position: absolute;
+        right: 0;
+
+        @include media-breakpoint-up(sm) {
+            display: block;
+        }
+
+        &:nth-child(2) {
+            height: 220px;
+            top: 0;
+        }
+
+        &:nth-child(3) {
+            height: 400px;
+            bottom: 0;
+        }
+    }
+    // .section-page-background {
+    //     background-image: url('/img/background-intro');
+    //     background-color: rgba(0,0,0,0.5);
+    //     background-size: cover;
+    //     background-position: center center;
+    // }
+}

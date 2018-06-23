@@ -79,5 +79,16 @@
             left: -25%;
         }
 
+        &.img-styling-bottom {
+            padding: 3rem 0;
+        }
+
+        &.img-styling-bottom:before {
+            transform: rotate(90deg);
+            top: auto;
+            left: 0;
+            bottom: 25%;
+        }
+
     }
 }
