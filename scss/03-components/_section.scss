@@ -39,7 +39,15 @@
 }
 
 .content {
-    @include media-breakpoint-up(md) {
+    @include media-breakpoint-up(lg) {
         padding: 0rem 4rem;
+    }
+}
+
+.section:not(.section-featured) {
+    .content {
+        @include media-breakpoint-down(xl) {
+            h2 { margin: 0;}
+        }
     }
 }
