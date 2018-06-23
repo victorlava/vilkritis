@@ -19,6 +19,7 @@
     }
 
     &.img-line:before {
+        display: none;
         content: " ";
         height: 1px;
         background-color: #828790;
@@ -27,6 +28,10 @@
         z-index: 2;
         left: -10%;
         width: 30%;
+        
+        @include media-breakpoint-up(md) {
+            display: block;
+        }
     }
 
     &.img-wooden-circle:after {

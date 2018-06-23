@@ -92,7 +92,7 @@
         <section class="section section-gallery">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6 offset-section-left">
+                    <div class="col-xs-12 col-md-6">
                         <div class="section-gallery-background big"></div>
                     </div>
                     <div class="col-xs-12 col-md-6">

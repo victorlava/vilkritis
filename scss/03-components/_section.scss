@@ -21,8 +21,13 @@
 
     &.section-gallery {
         position: relative;
-        left: -100px;
         padding: 5rem 0;
+
+        .row {
+            @include media-breakpoint-up(lg) {
+                margin-left: -13vw;
+            }
+        }
 
         .section-gallery-background {
             background-image: url('/img/gallery.png');
@@ -38,7 +43,16 @@
         .section-gallery-text {
             margin: 1rem 0;
             background-color: black;
-            padding: 1.5rem 0 1.5rem 7rem;
+            padding: 1.5rem 0 1.5rem 1.5rem;
+
+
+            @include media-breakpoint-down(md) {
+                &.img-line:before { display: none !important; }
+            }
+
+            @include media-breakpoint-up(lg) {
+                padding: 1.5rem 0 1.5rem 7rem;
+            }
 
             h2, p { margin: 0;}
 
