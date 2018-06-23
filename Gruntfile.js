@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     php: {
 		dist: {
 			options: {
-				port: 90,
+				port: 94,
                 hostname: '0.0.0.0',
                 keepalive: true,
                 base: 'www'
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
 
     sass: {
      options: {
-           includePaths: ['bower_components/bootstrap/scss'
+           includePaths: ['bower_components/bootstrap/scss']
       },
       dist: {
         options: {

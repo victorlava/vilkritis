@@ -1,6 +1,6 @@
 <?php include('partials/head.php'); ?>
 
-<body id="contact">
+<body id="gallery">
     <!-- start of #home-page -->
 
     <?php include('partials/navigation.php'); ?>
@@ -9,11 +9,7 @@
 
         <?php include('partials/section-heading-xs.php'); ?>
 
-        <section class="section">
-
-        </section>
-
-        <?php include('partials/quote.php'); ?>
+        <?php include('partials/cta.php'); ?>
 
     </main>
 

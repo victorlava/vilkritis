@@ -1,0 +1,35 @@
+.quote {
+    text-align: center;
+    width: 100%;
+
+
+    p {
+        &:before, &:after {
+
+        }
+    }
+
+
+    cite {
+        font-family: $secondary-font;
+        letter-spacing: 8px;
+        font-weight: 300;
+        font-style: normal;
+        font-size: $font-size;
+        border-top: 1px solid white;
+        padding-top: 23px;
+
+        &:after, &:before {
+            content: " — ";
+            position: relative;
+        }
+
+        &:after {
+            left: 0;
+        }
+
+        &:before {
+            right: 0;
+        }
+    }
+}

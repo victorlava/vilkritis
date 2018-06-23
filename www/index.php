@@ -2,19 +2,23 @@
 
 <body id="home">
     <!-- start of #home-page -->
+
     <?php include('partials/navigation.php'); ?>
 
     <main>
 
         <section class="section section-intro">
-            <h1>Filosofinis emocinis sakinys</h1>
+            <h1>
+                Filosofinis emocinis
+                <span>sakinys</span>
+            </h1>
         </section>
 
         <section class="section section-featured section-offset">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <img src="" alt="">
+                        <img src="/img/furniture.png" alt="">
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <h2>Apie mus</h2>
@@ -32,24 +36,10 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
                         <h2>Išskirtinumo pavadinimas</h2>
-                        <p>Lorem ipsum dolor</p>
+                        <p class="spaced">Lorem ipsum dolor</p>
                     </div>
                     <div class="col-xs-12 col-md-6">
-                        <img src="" alt="">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <h2>Išskirtinumo pavadinimas</h2>
-                        <p>Lorem ipsum dolor</p>
+                        <img src="/img/furniture.png" alt="">
                     </div>
                 </div>
             </div>
@@ -59,11 +49,25 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <img src="" alt="">
+                        <img src="/img/furniture.png" alt="">
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <h2>Išskirtinumo pavadinimas</h2>
-                        <p>Lorem ipsum dolor</p>
+                        <p class="spaced">Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="/img/furniture.png" alt="">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <h2>Išskirtinumo pavadinimas</h2>
+                        <p class="spaced">Lorem ipsum dolor</p>
                     </div>
                 </div>
             </div>
@@ -84,8 +88,6 @@
 
         <?php include('partials/cta.php'); ?>
 
-    </main> <!-- .container -->
-
-    <?php include('components/cta.php'); ?>
+    </main>
 
 <?php include('partials/footer.php') ?>
