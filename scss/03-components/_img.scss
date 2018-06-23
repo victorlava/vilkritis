@@ -26,9 +26,9 @@
         top: 50%;
         position: absolute;
         z-index: 2;
-        left: -10%;
+        left: -12%;
         width: 30%;
-        
+
         @include media-breakpoint-up(md) {
             display: block;
         }
