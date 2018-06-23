@@ -1,101 +1,91 @@
 <?php include('partials/head.php'); ?>
 
-<body id="home" data-hijacking="off" data-animation="parallax">
-<!-- start of #home-page -->
+<body id="home">
+    <!-- start of #home-page -->
+    <?php include('partials/navigation.php'); ?>
+
     <main>
-            <?php include('partials/navigation.php'); ?>
 
-            <section id="start" class="section section-full">
+        <section class="section section-intro">
+            <h1>Filosofinis emocinis sakinys</h1>
+        </section>
 
-                <div class="depth-js">
-                    <div class="background" data-depth="0.3"></div>
-                    <div class="victor" data-depth="0.4"></div>
+        <section class="section section-featured section-offset">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <h2>Apie mus</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
+                    </div>
                 </div>
+            </div>
+        </section>
 
-                <div class="heading fade-in">
-                    <header>
-                      <h1 class="js-typed">Hello!</h1>
-                    </header>
+        <?php include('partials/quote.php'); ?>
 
-                    <p class="text fading-text">
-                      <span>esu laisvai samdomas web programuotojas ir lektorius iš</span>
-                      <span>Vilniaus. Kuriu internetines svetaines pastaruosius</span>
-                      <span>6 metus Lietuvos, Švedijos ir Australijos rinkoms</span>
-                      <span class="hidden-xs">Dėstau programavimą <a href="http://3wa.lt" target="_blank" title="3W Academy">3WA</a> akademijoje.</span>
-                    </p>
-
-                    <a href="/paslaugos/web-dizainas/" class="btn btn-primary">Paslaugos</a>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <h2>Išskirtinumo pavadinimas</h2>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <img src="" alt="">
+                    </div>
                 </div>
+            </div>
+        </section>
 
-                <?php include('partials/icon-mouse.php'); ?>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <h2>Išskirtinumo pavadinimas</h2>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            </section>
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <h2>Išskirtinumo pavadinimas</h2>
+                        <p>Lorem ipsum dolor</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section id="lenndy" class="section section-project section-fading section-parallax">
-                <div class="container">
-                    <div class="heading">
-                        <header>
-                          <h2 class="slide-in-parent">Lenndy</h2>
-                        </header>
-
-                        <p class="text fading-text">
-                          <span>Lenndy yra pirmoji Lietuvoje sutelktinio finansavimo platforma skirta verslui.</span>
-                          <span>Šiuo metu platforma yra pritraukusi virš 250,000€ investicijų.</span>
-                        </p>
+        <section class="section section-gallery section-offset">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <img src="/" alt="">
+                    </div>
+                    <div class="col-xs-12 col-md-6">
 
                     </div>
-
-                    <div class="btn-wrapper">
-                        <a href="#" class="btn btn-primary">Peržiūrėti</a>
-                        <span class="btn btn-line d-none d-md-block slide-in-parent"></span>
-                        <h3 class="slide-in-parent">Web dizainas ir front-end</h3>
-                    </div>
-
-                    <img src="img/projects/lenndy-crowdfunding.jpg" class="image image-border" alt="">
                 </div>
-            </section>
+            </div>
+        </section>
 
-
-            <section id="amplify" class="section section-project section-fading section-parallax">
-                <div class="container">
-                    <div class="heading">
-                        <header>
-                          <h2 class="slide-in-parent">Amplify</h2>
-                        </header>
-
-                        <p class="text fading-text">
-                          <span>Mano tikslas buvo sukurti naują dizainą "Amplify Digital Stockholm"</span>
-                          <span>įmonei ir pritaikyti jį WordPress turinio valdymo sistemai.</span>
-                        </p>
-
-                    </div>
-
-                    <div class="btn-wrapper">
-                        <a href="#" class="btn btn-primary">Peržiūrėti</a>
-                        <span class="btn btn-line d-none d-md-block slide-in-parent"></span>
-                        <h3 class="slide-in-parent">Web dizainas ir Wordpress</h3>
-                    </div>
-
-                    <img src="img/projects/amplify-digital-stockholm.jpg" class="image image-border" alt="">
-                </div>
-            </section>
+        <?php include('partials/cta.php'); ?>
 
     </main> <!-- .container -->
 
     <?php include('components/cta.php'); ?>
 
-    <script src="/js/velocity.min.js"></script>
-    <script type="text/javascript" src="js/typed.min.js"></script>
-    <script type="text/javascript" src="js/depth.js"></script>
-    <script type="text/javascript">
-
-        var depth = new Depth({
-            parent: "#start",
-            children: '.depth-js',
-            intesity: 1
-        })
-
-    </script>
-    <script src="/js/main.js"></script> <!-- Resource jQuery -->
-<!-- end of #home-page -->
 <?php include('partials/footer.php') ?>

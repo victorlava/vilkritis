@@ -1,4 +1,4 @@
-<nav class="navigation navigation-secondary">
+<nav class="navigation navigation-white">
 
     <a href="#">
         <img src="img/logo-white.png" alt="">
