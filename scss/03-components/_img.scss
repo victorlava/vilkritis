@@ -2,8 +2,8 @@
     position: relative;
 
     &.img-wooden:before {
+        display: none;
         content: " ";
-        display: block;
         background-image: url('/img/line-wooden.png');
         background-size: cover;
         height: 8px;
@@ -11,6 +11,11 @@
         position: absolute;
         z-index: 2;
         top: 50%;
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+        }
+
     }
 
     &.img-styling-right:before {

@@ -3,9 +3,13 @@
 }
 
 .offset-section-left {
-	margin-left: -15px;
+	@include media-breakpoint-up(md) {
+		margin-left: -15px;
+	}
 }
 
 .offset-section-right {
-	margin-right: -15px;
+	@include media-breakpoint-up(md) {
+		margin-right: -15px;
+	}
 }
