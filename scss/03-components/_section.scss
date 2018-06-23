@@ -19,6 +19,11 @@
     }
 
     &.section-featured {
+
+        @include media-breakpoint-down(md) {
+            .img-wooden:before { display: none; }
+        }
+
         @include media-breakpoint-up(md) {
             padding: 5rem 0 2.5rem 0;
         }

@@ -8,21 +8,60 @@
         background-size: cover;
         height: 8px;
         width: 35%;
+        top: 50%;
         position: absolute;
         z-index: 2;
-        top: 50%;
 
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(md) {
             display: block;
         }
 
     }
 
-    &.img-styling-right:before {
-        right: -25%;
+    &.img-wooden-circle:after {
+        display: none;
+        content: " ";
+        background-image: url('/img/circle-wooden.png');
+        background-size: cover;
+        width: 400px;
+        height: 400px;
+        border-radius: 10em;
+        position: absolute;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+
+        @include media-breakpoint-up(lg) {
+            display: block;
+        }
+
+        @include media-breakpoint-up(xl) {
+            width: 450px;
+            height: 450px;
+        }
     }
 
-    &.img-styling-left:before {
-        left: -25%;
+    @include media-breakpoint-up(md) {
+
+        &.img-styling-right:before {
+            right: -5%;
+        }
+
+        &.img-styling-left:before {
+            left: -5%;
+        }
+
+    }
+
+    @include media-breakpoint-up(lg) {
+
+        &.img-styling-right:before {
+            right: -25%;
+        }
+
+        &.img-styling-left:before {
+            left: -25%;
+        }
+
     }
 }

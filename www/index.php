@@ -18,7 +18,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-6 offset-section-left">
-                        <div class="img img-wooden img-styling-right">
+                        <div class="img img-wooden img-wooden-circle img-styling-right">
                             <img src="/img/furniture.png" alt="">
                         </div>
                     </div>
