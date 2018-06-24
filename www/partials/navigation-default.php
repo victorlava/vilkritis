@@ -1,7 +1,7 @@
 <nav class="navigation navigation-default">
     <div class="container">
         <div class="navigation-wrapper">
-            <a href="#" class="logo mr-auto">
+            <a href="index.php" class="logo mr-auto">
                 <img src="img/logo.png" alt="">
             </a>
 

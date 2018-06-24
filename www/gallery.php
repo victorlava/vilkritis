@@ -14,7 +14,9 @@
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
                         <div class="content">
-                            <h2>Objekto Pavadinimas</h2>
+                            <h2>
+                                <a href="object.php">Objekto Pavadinimas</a>
+                            </h2>
                             <p class="spaced">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
