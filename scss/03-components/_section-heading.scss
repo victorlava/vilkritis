@@ -1,55 +1,69 @@
 .section-heading {
     position: relative;
-    background-image: url('/img/background-intro.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+    // background-image: url('/img/background-intro.png');
+    // background-size: cover;
+    // background-repeat: no-repeat;
     color: white;
     height: 650px;
+
+    .container {
+        position: absolute;
+        top: 30px;
+        left: 0;
+        right: 0;
+    }
 
     h1 { margin-top: 4rem; }
 
 
+}
+
+.heading-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100%;
+
     @include media-breakpoint-up(md) {
-        background-position-x: -10rem;
+        flex-direction: row;
+    }
+}
+
+.heading-column {
+    &.background, .background {
+        background-image: url('/img/background-intro.png');
+        background-repeat: no-repeat;
+        background-size: 1000px;
     }
 
-    @include media-breakpoint-up(lg) {
-        margin: 2rem 0;
-        background-position-x: -27rem;
-    }
-
-    &.section-heading-xs {
-        height: auto;
-    }
-
-    .section-page-background {
-        display: none;
-        background-image: url('/img/background-intro');
-        background-color: rgba(0,0,0,0.5);
-        background-size: cover;
-        background-position: center center;
-        width: 30%;
-        position: absolute;
-        right: 0;
-
-        @include media-breakpoint-up(sm) {
-            display: block;
-        }
-
-        &:nth-child(2) {
-            height: 220px;
-            top: 0;
-        }
-
-        &:nth-child(3) {
-            height: 400px;
-            bottom: 0;
+    &:nth-child(1) {
+        flex: 100%;
+        background-position: center left;
+        @include media-breakpoint-up(md) {
+            flex: 7 1;
         }
     }
-    // .section-page-background {
-    //     background-image: url('/img/background-intro');
-    //     background-color: rgba(0,0,0,0.5);
-    //     background-size: cover;
-    //     background-position: center center;
-    // }
+
+    &:nth-child(2) { flex: 1 1; }
+
+    &:nth-child(3) { flex: 4 1; }
+
+    &.heading-reverse {
+        display: flex;
+        flex-direction: column;
+
+        .heading-row {
+            &:nth-child(1) {
+                flex: 4 1;
+                background-position: right top;
+            }
+            &:nth-child(2) { flex: 1 1;}
+            &:nth-child(3) {
+                flex: 7 1;
+                background-position: right bottom;
+            }
+        }
+    }
+
 }
