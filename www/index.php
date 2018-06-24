@@ -35,7 +35,7 @@
 
         <?php include('partials/quote.php'); ?>
 
-        <section class="section">
+        <section class="section section-simple">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section section-simple">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -71,7 +71,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section section-simple">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">

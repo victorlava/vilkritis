@@ -9,7 +9,7 @@
 
         <?php include('partials/section-heading.php'); ?>
 
-        <section class="section">
+        <section class="section section-carousel">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -29,7 +29,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section section-simple">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -42,19 +42,19 @@
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <div class="img img-wooden img-styling-left">
-                            <img src="/img/furniture.png" alt="">
+                            <img src="/img/procesas-2.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section">
+        <section class="section section-simple">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
                         <div class="img img-wooden img-styling-right">
-                            <img src="/img/furniture.png" alt="">
+                            <img src="/img/procesas-2.png" alt="">
                         </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
@@ -69,7 +69,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section section-images">
             <div class="container">
                 <div class="row">
                     <div class="col-12">

@@ -1,12 +1,26 @@
 .section {
     padding: 1.95rem 0;
 
+
     @include media-breakpoint-up(lg) {
+
+        &.section-carousel {
+            .content { padding-top: 2rem; }
+        }
 
         &.section-vertical {
             .row > div:nth-child(2) .content {
                 // padding-top: 10rem;
                 padding: 10rem 3rem 4rem 3rem;
+            }
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        &.section-simple {
+            &:nth-child(odd) {
+                div:nth-child(1) { order: 2; }
+                div:nth-child(2) { order: 1; }
             }
         }
     }
@@ -101,13 +115,13 @@
 
 .content {
     @include media-breakpoint-up(lg) {
-        padding: 0rem 10rem;
+        padding: 4rem 9rem 0 9rem;
     }
 }
 
 .section:not(.section-featured) {
     .content {
-        @include media-breakpoint-down(xl) {
+        @include media-breakpoint-up(xl) {
             h2 { margin: 0;}
         }
     }
