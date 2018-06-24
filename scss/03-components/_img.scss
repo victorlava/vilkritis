@@ -90,5 +90,12 @@
             bottom: 25%;
         }
 
+        &.img-styling-top:before {
+            transform: rotate(90deg);
+            top: auto;
+            left: 0;
+            top: 0%;
+        }
+
     }
 }

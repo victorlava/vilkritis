@@ -3,6 +3,13 @@
     @include media-breakpoint-up(md) {
     }
 
+    &.section-vertical {
+        .row > div:nth-child(2) .content {
+            // padding-top: 10rem;
+            padding: 10rem 4rem 4rem 4rem;
+        }
+    }
+
     &.section-intro {
         height: 100vh;
         min-height: 500px;

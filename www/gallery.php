@@ -29,7 +29,7 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="section section-vertical">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -50,7 +50,7 @@
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                         </div>
-                        <div class="img img-line img-styling-bottom">
+                        <div class="img img-line img-styling-top">
                             <img src="/img/furniture.png" alt="">
                         </div>
                     </div>
