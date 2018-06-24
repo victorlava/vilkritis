@@ -23,6 +23,11 @@
                 div:nth-child(2) { order: 1; }
             }
         }
+        &.section-vertical {
+
+                .row > div { margin-bottom: 7rem; }
+
+        }
     }
 
     &.section-images {
@@ -108,7 +113,7 @@
         margin: 2rem 0;
     }
 
-    .row div:nth-child(1) > .content { padding-left: 0;}
+    .row div:nth-child(1) > .content { padding-left: 0; padding-top: 0;}
     .row div:nth-child(2) > .content { padding-right: 0; }
 
 }
