@@ -10,10 +10,9 @@
         <?php include('partials/section-heading-xs.php'); ?>
 
         <section class="section section-contact">
-            <div></div>
             <div>
                 <img src="/img/furniture.png" alt="">
-                <div class="d-flex">
+                <div class="address-wrapper">
                     <div class="address">
                         <h3>Vardenis pavardenis</h3>
                         <ul class="contacts">
