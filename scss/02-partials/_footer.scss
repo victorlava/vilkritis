@@ -4,7 +4,7 @@
     @include media-breakpoint-up(md) {
         padding-bottom: 0;
     }
-    
+
     @include media-breakpoint-up(lg) {
         padding: 5.3rem 0;
     }
@@ -45,13 +45,4 @@
 
     .title { margin-top: 0; }
 
-    ul {
-        list-style: none;
-        a {
-            padding: .5px 0;
-            display: block;
-            letter-spacing: 3.6px;
-            &:first-child { padding-top: 0; }
-        }
-    }
 }

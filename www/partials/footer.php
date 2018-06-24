@@ -9,7 +9,7 @@
 				</div>
 				<div class="col-xs-12 col-md-6 col-lg-3">
 					<h6 class="title">Menu</h6>
-					<ul>
+					<ul class="contacts">
 						<li>
 							<a href="#">Procesas</a>
 						</li>
@@ -25,7 +25,7 @@
 					<h6 class="title">
 						Susisiekite
 					</h6>
-					<ul>
+					<ul class="contacts">
 						<li>
 							<a href="mailto:info@aredodeko.lt">info@aredodeko.lt</a>
 						</li>

@@ -9,22 +9,72 @@
 
         <?php include('partials/section-heading-xs.php'); ?>
 
-        <section class="section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <div class="content">
-                            <h2>Objekto Pavadinimas</h2>
-                            <p class="spaced">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                        </div>
+        <section class="section section-contact">
+            <div></div>
+            <div>
+                <img src="/img/furniture.png" alt="">
+                <div class="d-flex">
+                    <div class="address">
+                        <h3>Vardenis pavardenis</h3>
+                        <ul class="contacts">
+                            <li>
+                                <a href="#">vardenis@aredodeko.lt</a>
+                            </li>
+                            <li>
+                                <a href="#">+370 123 45678 </a>
+                            </li>
+                            <li>
+                                <a href="#">linkedin: v_pavardenis</a>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="img img-line img-styling-left">
-                            <img src="/img/furniture.png" alt="">
-                        </div>
+
+                    <div class="address">
+                        <h3>Vardenis pavardenis</h3>
+                        <ul class="contacts">
+                            <li>
+                                <a href="#">vardenis@aredodeko.lt</a>
+                            </li>
+                            <li>
+                                <a href="#">+370 123 45678 </a>
+                            </li>
+                            <li>
+                                <a href="#">linkedin: v_pavardenis</a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
+            </div>
+            <div></div>
+            <div class="contact-box">
+                <h2>Kontaktai</h2>
+                <div>
+                    <h4>Kategorija 1</h4>
+                    <ul class="contacts">
+                        <li>
+                            <a href="#">vardenis@aredodeko.lt</a>
+                        </li>
+                        <li>
+                            <a href="#">+370 123 45678 </a>
+                        </li>
+                        <li>
+                            <a href="#">linkedin: v_pavardenis</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Kategorija 2</h4>
+                    <ul class="contacts">
+                        <li>
+                            <a href="#">vardenis@aredodeko.lt</a>
+                        </li>
+                        <li>
+                            <a href="#">+370 123 45678 </a>
+                        </li>
+                        <li>
+                            <a href="#">linkedin: v_pavardenis</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
