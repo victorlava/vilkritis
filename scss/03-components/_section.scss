@@ -126,7 +126,7 @@
 
 .section:not(.section-featured) {
     .content {
-        @include media-breakpoint-up(xl) {
+        @include media-breakpoint-up(md) {
             h2 { margin: 0;}
         }
     }
