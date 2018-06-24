@@ -73,3 +73,7 @@ h6 {
 blockquote {
     line-height: 1.2rem;
 }
+
+@include media-breakpoint-down(sm) {
+    main > section:first-child { padding-top: 0; }
+}
