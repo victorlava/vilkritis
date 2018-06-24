@@ -1,13 +1,18 @@
 .section {
     padding: 1.95rem 0;
-    @include media-breakpoint-up(md) {
+
+    @include media-breakpoint-up(lg) {
+
+        &.section-vertical {
+            .row > div:nth-child(2) .content {
+                // padding-top: 10rem;
+                padding: 10rem 3rem 4rem 3rem;
+            }
+        }
     }
 
-    &.section-vertical {
-        .row > div:nth-child(2) .content {
-            // padding-top: 10rem;
-            padding: 10rem 4rem 4rem 4rem;
-        }
+    &.section-images {
+            .row > div { margin-bottom: 1rem; }
     }
 
     &.section-intro {

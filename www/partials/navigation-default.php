@@ -7,13 +7,13 @@
 
             <ul class="menu">
                 <li>
-                    <a href="#">Procesas</a>
+                    <a href="process.php">Procesas</a>
                 </li>
                 <li>
-                    <a href="#">Galerija</a>
+                    <a href="gallery.php">Galerija</a>
                 </li>
                 <li>
-                    <a href="#">Kontaktai</a>
+                    <a href="contact.php">Kontaktai</a>
                 </li>
             </ul>
         </div>
