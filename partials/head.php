@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Arredo Deko</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
 	<script type="text/javascript" src="js/jquery.min.js"></script>
