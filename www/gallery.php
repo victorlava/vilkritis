@@ -9,10 +9,10 @@
 
         <?php include('partials/section-heading-xs.php'); ?>
 
-        <section class="section section-simple">
+        <section class="section section-simple section-left">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 align-vertical">
                         <div class="content">
                             <h2>
                                 <a href="object.php">Objekto Pavadinimas</a>

@@ -3,13 +3,18 @@
 }
 
 .offset-section-left {
-	@include media-breakpoint-up(md) {
+	@include media-breakpoint-up(lg) {
 		margin-left: -15px;
 	}
 }
 
 .offset-section-right {
-	@include media-breakpoint-up(md) {
+	@include media-breakpoint-up(lg) {
 		margin-right: -15px;
 	}
+}
+
+.align-vertical {
+	display: flex;
+	align-items: center;
 }

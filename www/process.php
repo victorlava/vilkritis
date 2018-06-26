@@ -9,7 +9,7 @@
 
         <?php include('partials/section-heading.php'); ?>
 
-        <section class="section section-carousel">
+        <section class="section section-carousel section-right">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -17,7 +17,7 @@
                             <img src="/img/furniture.png" alt="">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 align-vertical">
                         <div class="content">
                             <h2>Medžiagos</h2>
                             <p class="spaced">
@@ -29,10 +29,10 @@
             </div>
         </section>
 
-        <section class="section section-simple">
+        <section class="section section-simple section-left">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 align-vertical">
                         <div class="content">
                             <h2>Technologijos pavadinimas</h2>
                             <p class="spaced">
@@ -49,7 +49,7 @@
             </div>
         </section>
 
-        <section class="section section-simple">
+        <section class="section section-simple section-right">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -57,7 +57,7 @@
                             <img src="/img/procesas-2.png" alt="">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 align-vertical">
                         <div class="content">
                             <h2>Technologijos pavadinimas</h2>
                             <p class="spaced">

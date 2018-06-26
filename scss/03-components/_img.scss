@@ -1,6 +1,7 @@
 .img {
     position: relative;
 
+
     &.img-wooden:before {
         display: none;
         content: " ";
@@ -11,6 +12,9 @@
         top: 50%;
         position: absolute;
         z-index: 2;
+        transform: translateX(50%);
+        right: -2rem;
+        max-width: 300px;
 
         @include media-breakpoint-up(md) {
             display: block;
@@ -26,7 +30,7 @@
         top: 50%;
         position: absolute;
         z-index: 2;
-        left: -12%;
+        left: -20%;
         width: 30%;
 
         @include media-breakpoint-up(md) {
@@ -52,50 +56,68 @@
         }
 
         @include media-breakpoint-up(xl) {
-            width: 450px;
-            height: 450px;
+            width: 500px;
+            height: 500px;
         }
+
+        @include media-breakpoint-up(xxl) {
+            width: 570px;
+            height: 570px;
+        }
+
+        // @include media-breakpoint-up(1300px) {
+        //     width: 550px;
+        //     height: 550px;
+        // }
     }
 
     @include media-breakpoint-up(md) {
 
-        &.img-styling-right:before {
-            right: -5%;
-        }
+        // &.img-styling-right:before {
+        //     right: -5%;
+        // }
 
         &.img-styling-left:before {
-            left: -5%;
+            left: -2rem;
+            transform: translateX(-50%);
+            right: 0;
         }
 
     }
 
     @include media-breakpoint-up(lg) {
 
-        &.img-styling-right:before {
-            right: -25%;
-        }
-
-        &.img-styling-left:before {
-            left: -25%;
-        }
-
-        &.img-styling-bottom {
-            padding: 3rem 0;
-        }
+        // &.img-styling-right:before {
+        //     right: -9vw;
+        // }
+        //
+        // &.img-styling-left:before {
+        //     left: -25%;
+        // }
 
         &.img-styling-bottom:before {
+            display: block;
             transform: rotate(90deg);
             top: auto;
-            left: 0;
-            bottom: 25%;
+            left: -15%;
+            bottom: -15%;
+            transform-origin: 100% 0%;
         }
 
         &.img-styling-top:before {
+            display: block;
             transform: rotate(90deg);
             top: auto;
-            left: 0;
-            top: 0%;
+            left: 15%;
+            top: -15%;
+            transform-origin: left;
         }
 
+    }
+
+    @include media-breakpoint-up(xl) {
+        // &.img-styling-right:before {
+        //     right: -12vw;
+        // }
     }
 }

@@ -1,3 +1,21 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/fonts/subset-SegoeUI.woff2') format('woff2'),
+        url('/fonts/subset-SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('/fonts/subset-SegoeUI-Light.woff2') format('woff2'),
+        url('/fonts/subset-SegoeUI-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
 html {
     font-size: $font-size;
 }
@@ -8,6 +26,7 @@ body {
 }
 
 p {
+    font-weight: 300;
     line-height: 1.65;
     &.spaced {
         font-weight: 300;

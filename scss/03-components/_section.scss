@@ -1,17 +1,37 @@
 .section {
     padding: 1.95rem 0;
 
+    &.section-vertical {
+        .img-styling-top:before,
+        .img-styling-bottom:before {
+            display: none;
+        }
+
+    }
 
     @include media-breakpoint-up(lg) {
 
         &.section-carousel {
-            .content { padding-top: 2rem; }
+
         }
 
         &.section-vertical {
-            .row > div:nth-child(2) .content {
-                // padding-top: 10rem;
-                padding: 10rem 3rem 4rem 3rem;
+            .img-styling-top:before,
+            .img-styling-bottom:before {
+                display: block;
+            }
+            .content {
+                padding-left: 15%;
+                padding-top: 35%;
+                padding-right: 25%;
+                padding-bottom: 15%;
+            }
+
+            .img + .content {
+                padding-right: 25%;
+                padding-left: 0;
+                padding-top: 15%;
+                padding-bottom:0;
             }
         }
     }
@@ -27,6 +47,15 @@
 
                 .row > div { margin-bottom: 7rem; }
 
+        }
+    }
+
+    @include media-breakpoint-down(md) {
+        &.section-simple.section-vertical {
+            &:nth-child(odd) {
+                div:nth-child(1) { order: 2; }
+                div:nth-child(2) { order: 1; }
+            }
         }
     }
 
@@ -76,6 +105,8 @@
             background-color: black;
             padding: 1.5rem 0 1.5rem 1.5rem;
 
+            h2 { max-width: 500px; }
+
 
             @include media-breakpoint-down(md) {
                 &.img-line:before { display: none !important; }
@@ -94,6 +125,7 @@
 
     &.section-featured {
 
+
         @include media-breakpoint-down(md) {
             .img-wooden:before { display: none; }
         }
@@ -101,6 +133,18 @@
         @include media-breakpoint-up(md) {
             padding: 5rem 0 2.5rem 0;
         }
+
+        @include media-breakpoint-up(lg) {
+            .content {
+                h2 { margin-top: 0; }
+            }
+        }
+
+        @include media-breakpoint-up(xl) {
+
+        }
+
+
     }
 
     &.section-quote {
@@ -113,18 +157,53 @@
         margin: 2rem 0;
     }
 
-    .row div:nth-child(1) > .content { padding-left: 0; padding-top: 0;}
-    .row div:nth-child(2) > .content { padding-right: 0; }
-
 }
 
-.content {
-    @include media-breakpoint-up(lg) {
-        padding: 4rem 9rem 0 9rem;
+.section-left {
+    .content {
+        @include media-breakpoint-up(lg) {
+            padding-right: 25%;
+        }
+    }
+    &.section-featured .content {
+        @include media-breakpoint-up(lg) {
+            padding-right: 25%;
+        }
     }
 }
 
-.section:not(.section-featured) {
+
+.section-right {
+    .content {
+        @include media-breakpoint-up(lg) {
+            padding-left: 25%;
+        }
+    }
+    &.section-featured .content {
+        @include media-breakpoint-up(lg) {
+            padding-left: 20%;
+            padding-right: 20%;
+        }
+
+        @include media-breakpoint-up(lg) {
+            // padding-left: 25%;
+            // padding-right: 25%;
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding-left: 25%;
+            padding-right: 25%;
+        }
+
+        @include media-breakpoint-up(xxl) {
+            // padding-left: 10%;
+            // padding-right: 45%;
+        }
+    }
+}
+
+
+.section:not(.section-featured, .section-vertical) {
     .content {
         @include media-breakpoint-up(md) {
             h2 { margin: 0;}

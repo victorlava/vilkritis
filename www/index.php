@@ -14,7 +14,7 @@
             </h1>
         </section>
 
-        <section class="section section-featured">
+        <section class="section section-featured section-right">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-6 offset-section-left">
@@ -22,7 +22,7 @@
                             <img src="/img/furniture.png" alt="">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-12 col-lg-6">
+                    <div class="col-xs-12 col-md-12 col-lg-6 align-vertical">
                         <div class="content">
                             <h2>Apie mus</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
@@ -35,10 +35,10 @@
 
         <?php include('partials/quote.php'); ?>
 
-        <section class="section section-simple">
+        <section class="section section-simple section-left">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 align-vertical">
                         <div class="content">
                             <h2>Išskirtinumo pavadinimas</h2>
                             <p class="spaced">Lorem ipsum dolor</p>
@@ -53,7 +53,7 @@
             </div>
         </section>
 
-        <section class="section section-simple">
+        <section class="section section-simple section-right">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
@@ -61,7 +61,7 @@
                             <img src="/img/furniture.png" alt="">
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 align-vertical">
                         <div class="content">
                             <h2>Išskirtinumo pavadinimas</h2>
                             <p class="spaced">Lorem ipsum dolor</p>
@@ -71,10 +71,10 @@
             </div>
         </section>
 
-        <section class="section section-simple">
+        <section class="section section-simple section-left">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
+                    <div class="col-xs-12 col-md-6 align-vertical">
                         <div class="content">
                             <h2>Išskirtinumo pavadinimas</h2>
                             <p class="spaced">Lorem ipsum dolor</p>

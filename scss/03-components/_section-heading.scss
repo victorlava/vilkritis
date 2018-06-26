@@ -39,7 +39,10 @@
     &.background, .background {
         background-image: url('/img/background-intro.png');
         background-repeat: no-repeat;
-        background-size: 1000px;
+        background-size: cover;
+        @include media-breakpoint-up(xxl) {
+            background-size: 100%;
+        }
     }
 
     &:nth-child(1) {

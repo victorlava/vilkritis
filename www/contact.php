@@ -10,10 +10,10 @@
         <?php include('partials/section-heading-xs.php'); ?>
 
         <section class="section section-contact">
-            <div>
+            <div class="contact-wrapper">
                 <img src="/img/furniture.png" alt="">
                 <div class="address-wrapper">
-                    <div class="address">
+                    <div class="address img img-line img-styling-top">
                         <h3>Vardenis pavardenis</h3>
                         <ul class="contacts">
                             <li>
@@ -28,7 +28,7 @@
                         </ul>
                     </div>
 
-                    <div class="address">
+                    <div class="address img img-line img-styling-top">
                         <h3>Vardenis pavardenis</h3>
                         <ul class="contacts">
                             <li>
