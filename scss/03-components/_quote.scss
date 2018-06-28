@@ -4,7 +4,6 @@
 
 
 
-
     p {
         &:before, &:after {
 
@@ -24,11 +23,11 @@
         }
 
         &:before {
-            background-image: url('/img/quote-up.png');
+            background-image: url('img/quote-up.png');
         }
 
         &:after {
-            background-image: url('/img/quote-down.png');
+            background-image: url('img/quote-down.png');
         }
     }
 

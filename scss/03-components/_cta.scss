@@ -1,6 +1,6 @@
 .section-cta {
     padding: 2rem 0;
-    margin: 1rem 0; 
+    margin: 1rem 0;
     background-image: url('/img/background-intro.png');
     background-size: cover;
     background-position: center center;
@@ -42,7 +42,7 @@
 
         &.arrow-left {
             @include media-breakpoint-up(lg) {
-                width: 15%;
+                width: 30%;
             }
             width: 30%;
         }
@@ -69,6 +69,14 @@
         margin: 0 30px;
         @include media-breakpoint-down(lg) {
             font-size: 30px;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        a {
+            display: flex;
+            justify-content: flex-end;
+            width: 50%;
         }
     }
 }

@@ -1,11 +1,13 @@
 .img {
     position: relative;
 
+    > a { display: block; } 
+
 
     &.img-wooden:before {
         display: none;
         content: " ";
-        background-image: url('/img/line-wooden.png');
+        background-image: url('img/line-wooden.png');
         background-size: cover;
         height: 8px;
         width: 35%;
@@ -41,7 +43,7 @@
     &.img-wooden-circle:after {
         display: none;
         content: " ";
-        background-image: url('/img/circle-wooden.png');
+        background-image: url('img/circle-wooden.png');
         background-size: cover;
         width: 400px;
         height: 400px;
@@ -49,6 +51,9 @@
         position: absolute;
         z-index: 2;
         top: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
         transform: translateY(-50%);
 
         @include media-breakpoint-up(lg) {
@@ -56,13 +61,13 @@
         }
 
         @include media-breakpoint-up(xl) {
-            width: 500px;
-            height: 500px;
+            width: 480px;
+            height: 480px;
         }
 
         @include media-breakpoint-up(xxl) {
-            width: 570px;
-            height: 570px;
+            width: 610px;
+            height: 610px;
         }
 
         // @include media-breakpoint-up(1300px) {
@@ -81,6 +86,12 @@
             left: -2rem;
             transform: translateX(-50%);
             right: 0;
+        }
+
+        &.img-styling-right:before {
+            right: -2rem;
+            left: auto;
+            transform: translateX(50%);
         }
 
     }

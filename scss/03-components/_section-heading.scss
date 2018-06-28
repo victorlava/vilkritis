@@ -11,6 +11,7 @@
         top: 80px;
         left: 0;
         right: 0;
+        z-index: 1;
     }
 
     &.section-heading-xs {
@@ -39,15 +40,17 @@
     &.background, .background {
         background-image: url('/img/background-intro.png');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100vw;
+        position: relative;
         @include media-breakpoint-up(xxl) {
             background-size: 100%;
         }
+
     }
 
     &:nth-child(1) {
         flex: 100%;
-        background-position: center left;
+        background-position: top left;
         @include media-breakpoint-up(md) {
             flex: 7 7;
         }
@@ -64,12 +67,12 @@
         .heading-row {
             &:nth-child(1) {
                 flex: 4 4;
-                background-position: right top;
+                background-position: top right;
             }
             &:nth-child(2) { flex: 1 1;}
             &:nth-child(3) {
                 flex: 7 7;
-                background-position: right bottom;
+                background-position: bottom right;
             }
         }
     }
