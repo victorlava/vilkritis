@@ -37,10 +37,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-3">
-                        <img src="/img/procesas.png" alt="">
+                        <img src="/img/procesas.png" class="lightbox" data-mfp-src="/img/procesas.png" alt="">
                     </div>
                     <div class="col-sm-6 col-md-3">
-                        <img src="/img/procesas.png" alt="">
+                        <img src="/img/procesas.png" class="lightbox" data-mfp-src="/img/procesas.png" alt="">
                     </div>
                     <div class="col-sm-6 col-md-3">
                         <img src="/img/procesas.png" alt="">
