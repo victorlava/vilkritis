@@ -1,46 +1,55 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-md-12 col-lg-6">
-					<a href="/" class="logo">
-						<img src="/img/logo.png" alt="">
-					</a>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-				<div class="col-xs-12 col-md-6 col-lg-3">
-					<h6 class="title">Menu</h6>
-					<ul class="contacts">
+				<div class="col-4">
+					<h3>Navigacija</h3>
+					<ul>
 						<li>
-							<a href="#">Procesas</a>
+							<a href="#">Apie mus</a>
 						</li>
 						<li>
-							<a href="#">Galerija</a>
+							<a href="#">Produktai</a>
 						</li>
 						<li>
 							<a href="#">Kontaktai</a>
 						</li>
-					</ul>
-				</div>
-				<div class="col-xs-12 col-md-6 col-lg-3">
-					<h6 class="title">
-						Susisiekite
-					</h6>
-					<ul class="contacts">
 						<li>
-							<a href="mailto:info@aredodeko.lt">info@aredodeko.lt</a>
-						</li>
-						<li>
-							<a href="tel:+37062330626">
-								+370 623 30626
-							</a>
-						</li>
-						<li>
-							<a href="#">
-								linkedin: arredo
-							</a>
+							<a href="#">Karjera</a>
 						</li>
 					</ul>
 				</div>
+				<div class="col-4">
+					<h3>Rekvizitai</h3>
+					<ul>
+						<li>
+							Granito g. 7, LT02241 Vilnius, Lietuva
+						</li>
+						<li>
+							Įmonės kodas: 124852557
+						</li>
+						<li>
+							PVM mokėtojo kodas: LT248525515
+						</li>
+					</ul>
+				</div>
+				<div class="col-4">
+					<h3>Kontaktai</h3>
+					<ul>
+						<li>
+							Tel.: +370 5 2691102
+						</li>
+						<li>
+							Faks.: +370 5 2691103
+						</li>
+						<li>
+							El. paštas: info@vilkritis.lt
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row footer-copyright">
+				<p>© 2018 <a href="www.vilkritis.com">www.vilkritis.com</a></p>
+				<a href="#">logo</a>
 			</div>
 		</div>
 	</footer>

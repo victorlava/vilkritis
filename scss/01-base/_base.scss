@@ -37,6 +37,11 @@ ul, blockquote {
     padding: 0;
 }
 
+li {
+    padding-top: 0.681rem;
+    padding-bottom: 0.681rem;
+}
+
 
 h1, h2, h3, h4, h5, h6, .navigation{
     font-family: $primary-font;

@@ -1,48 +1,26 @@
 .footer {
-    padding: 3rem 0;
+    background-color: $black;
+    padding-top: 4.545rem;
+    color: $white;
+    padding-bottom: 1.363rem;
 
-    @include media-breakpoint-up(md) {
-        padding-bottom: 0;
-    }
-
-    @include media-breakpoint-up(lg) {
-        padding: 5.3rem 0;
-    }
-
-    @include media-breakpoint-down(md) {
-        .row > div {
-            padding-bottom: 3rem;
-            text-align: center;
-            &:last-child { padding-bottom: 0; }
-        }
-        p {
-            margin: 0 auto;
-        }
-        .logo {
-            margin-left: auto;
-            margin-right: auto;
-            width: 70%;
+    h3 {
+        opacity: 0.3;
+        &:before {
+            content: "—";
+            padding-right: .9rem;
         }
     }
 
-    p {
-        max-width: 380px;
+    ul {
+        list-style: none;
     }
 
-    p, a {
-        font-size: 18px;
-        font-weight: 300;
-        opacity: 0.8;
-        margin-top: 0;
-        line-height: 1.7;
+    .footer-copyright {
+        padding-top: 1.363rem;
+        border-top: 1px solid rgba(255, 255, 255, 0.6);
     }
 
-    .logo {
-        font-size: $font-size-6;
-        margin-bottom: 1rem;
-        display: block;
-    }
-
-    .title { margin-top: 0; }
+    a { color: inherit; }
 
 }
