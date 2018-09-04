@@ -1,0 +1,18 @@
+.jumbotron {
+    position: relative;
+
+    p {
+        max-width: 60%;
+    }
+
+    .jumbotron-media {
+        height: 140%;
+        width: 30%;
+        background-color: black;
+        position: absolute;
+        right: 0;
+        top: -20%;
+        border-radius: 3px;
+        box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+    }
+}

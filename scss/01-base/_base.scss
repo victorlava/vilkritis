@@ -4,12 +4,13 @@ html {
 
 body {
     font-size: 1rem;
-    font-family: $secondary-font;
+    font-family: $primary-font;
     margin: 0;
     color: $color-primary;
 }
 
 p {
+    color: $grey;
     line-height: 1.65;
     &.spaced {
         font-weight: 300;
@@ -66,20 +67,23 @@ h5 {
     font-size: $font-size-5;
 }
 
-h6 {
-    font-size: $font-size-6;
+.sub-title {
+
+    &.sub-title-primary {
+        background-color: $purple-light;
+        color: white;
+        text-transform: uppercase;
+        padding: 0.227rem;
+        letter-spacing: 1px;
+    }
+
 }
 
 blockquote {
     line-height: 1.2rem;
 }
 
-@include media-breakpoint-down(sm) {
-    main > section:first-child { padding-top: 0; }
-}
 
 // @include media-breakpoint-up(1560) {
-//     .container {
-//         max-width: 1575px;
-//     }
+
 // }

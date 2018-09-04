@@ -1,55 +1,15 @@
 .navigation {
-	font-size: 1.25rem;
-	text-align: center;
-	padding: 1rem 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
 
-
-	@include media-breakpoint-up(lg) {
-		font-size: $font-size-navigation;
-		text-align: left;
-		padding: 1.6rem 0;
-
-		.navigation-wrapper {
-			display: flex;
-			justify-content: space-between;
-		}
+	.navbar-logo-wrapper {
+		display: flex;
+		flex-basis: 35%;
+		justify-content: space-between;
 	}
 
-	.logo {
-		margin: 0 auto;
-		@include media-breakpoint-up(lg) {
-			margin: 0;
-			line-height: 1.75;
-		}
+	.collapse.navbar-collapse {
+		flex-basis: 65%;
 	}
-
-	ul.menu {
-		line-height: 1.5;
-		margin-top: 1rem;
-		@include media-breakpoint-up(lg) { margin-top: 0; }
-
-		li {
-			display: inline-block;
-		    padding: .2rem .5rem;
-			@include media-breakpoint-up(md) {
-				padding: .2rem 1rem;
-				&:last-child { padding-right: 0;}
-			}
-		}
-	}
-
-	&.navigation-default {
-
-	}
-
-	&.navigation-white {
-		position: absolute;
-		top: 0;
-		width: 100%;
-		z-index: 1;
-		a {
-			color: white;
-		}
-	}
-
 }

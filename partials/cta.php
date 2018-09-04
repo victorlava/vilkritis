@@ -1,10 +1,7 @@
 <section class="section section-cta">
     <div class="container">
-        <div class="cta">
-            <h3 class="title">Pasiūlysime sprendimą jūsų įdėjai</h3>
-            <span class="arrow arrow-left"></span>
-            <a href="#" class="btn btn-lg">Susiekite</a>
-            <span class="arrow arrow-right"></span>
-        </div>
+        <h2>Pasiūlysime sprendimą jūsų įdėjai</h2>
+        <p class="text-white">The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling.</p>
+        <a href="#" class="btn btn-light">Susisiekti</a>
     </div>
 </section>

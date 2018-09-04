@@ -1,27 +1,63 @@
-$red: #221f20;
-$black: #221f20;
-$grey: #CAC8E2;
-$grey-light: #c7c7c7;
+$black: #191c1e;
+$grey: #6a6c6d;
+$grey-light: #f0f2f7;
 $white: #FFF;
-$blue-dark: #06041D;
 
-$color-primary: $black;
-$color-secondary: $blue-dark;
+$purple: #6e67ce;
+$purple-light: rgba(110, 103, 206, 0.6);
+$green: #42bfa8;
 
-$font-size: 18px;
-$font-size-multiplier: 0.8;
+$color-primary: $purple;
+$color-secondary: $green;
 
-@include media-breakpoint-up(sm) {
-    $font-size: 20px;
-    $font-size-multiplier: 1;
-}
-$font-size-1: 4.35rem * $font-size-multiplier; // 87px
-$font-size-2: 4rem * $font-size-multiplier; // 80px
-$font-size-3: 2.9rem * $font-size-multiplier; // 58px
-$font-size-4: 2.25rem * $font-size-multiplier; // 45px
-$font-size-5: 1.95rem * $font-size-multiplier; // 39px
-$font-size-6: 1.8rem * $font-size-multiplier; // 36px
-$font-size-navigation: 1.5rem; // 30px
+$font-size: 22px;
+$font-size-multiplier: 1;
 
-$primary-font: "Josefin Sans", "Tahoma", sans-serif;
-$secondary-font: "Segoe UI", "Tahoma", sans-serif;
+$font-size-1: 3.636rem * $font-size-multiplier; // 80px
+$font-size-2: 2.909rem * $font-size-multiplier; // 64px
+$font-size-3: 2.545rem * $font-size-multiplier; // 56px
+$font-size-4: 1.454rem * $font-size-multiplier; // 32px
+$font-size-5: 0.818rem * $font-size-multiplier; // 18px
+$font-size-6: 0.727rem * $font-size-multiplier; // 16px
+
+$primary-font: "Proxima Nova", "Tahoma", sans-serif;
+
+
+// Bootstrap override
+$primary: $color-primary;
+$secondary: $color-secondary;
+
+$spacer: 48px * 2;
+$navbar-nav-link-padding-x: 2.66rem;
+$nav-tabs-link-active-color:  $color-primary;
+
+$navbar-light-color: $black;
+$navbar-light-hover-color: $color-primary;
+$navbar-light-active-color: $color-primary;
+
+$input-btn-padding-y: 0.818rem;
+$input-btn-padding-x: 2.272rem;
+
+$jumbotron-bg: $grey-light;
+
+$card-border-color: rgba(0,0,0,0);
+$card-inner-border-radius: rgba(0,0,0,0);
+
+$btn-border-radius: 3px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1397px
+) !default;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1350px
+) !default;

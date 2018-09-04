@@ -7,101 +7,65 @@
 
     <main>
 
-        <section class="section section-intro">
-            <h1>
-                Filosofinis emocinis
-                <span>sakinys</span>
-            </h1>
-        </section>
+        <section class="section section-narrow">
+            <div class="section-image" style="background-image:url();">
 
-        <section class="section section-featured section-right">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 col-md-12 col-lg-6 offset-section-left">
-                        <div class="img img-wooden img-wooden-circle img-styling-right">
-                            <img src="/img/furniture.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-12 col-lg-6 align-vertical">
-                        <div class="content">
-                            <h2>Apie mus</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt. </p>
-                        </div>
-                    </div>
-                </div>
+            </div>
+            <div class="section-text">
+                <h1>
+                    Pasitikėjimą kuriame greitai reaguodami
+                </h1>
+                <h5 class="sub-title sub-title-primary mr-auto">net į smulkiausius jūsų poreikius</h5>
             </div>
         </section>
 
-        <?php include('partials/quote.php'); ?>
+        <div class="jumbotron">
+          <div class="container">
+              <h2>Apie mus</h2>
+              <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+          </div>
+          <div class="jumbotron-media" style="background-image:url('');">
 
-        <section class="section section-simple section-left">
+          </div>
+        </div>
+
+        <section class="section section-shadow">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6 align-vertical">
-                        <div class="content">
-                            <h2>Išskirtinumo pavadinimas</h2>
-                            <p class="spaced">Lorem ipsum dolor</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="img img-wooden img-styling-left">
-                            <img src="/img/furniture.png" alt="">
-                        </div>
+                    <div class="col-12 text-center">
+                        <h2>Veikla</h2>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="section section-simple section-right">
-            <div class="container">
                 <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <div class="img img-wooden img-styling-right">
-                            <img src="/img/furniture.png" alt="">
+                    <div class="col-4">
+                        <div class="card text-center">
+                          <img class="card-img-top rounded-circle" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-link">Go somewhere</a>
+                          </div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6 align-vertical">
-                        <div class="content">
-                            <h2>Išskirtinumo pavadinimas</h2>
-                            <p class="spaced">Lorem ipsum dolor</p>
+                    <div class="col-4">
+                        <div class="card text-center">
+                          <img class="card-img-top rounded-circle" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-link">Go somewhere</a>
+                          </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section section-simple section-left">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 align-vertical">
-                        <div class="content">
-                            <h2>Išskirtinumo pavadinimas</h2>
-                            <p class="spaced">Lorem ipsum dolor</p>
+                    <div class="col-4">
+                        <div class="card text-center">
+                          <img class="card-img-top rounded-circle" src="..." alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-link">Go somewhere</a>
+                          </div>
                         </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="img img-wooden img-styling-left">
-                            <img src="/img/furniture.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="section section-gallery">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <div class="section-gallery-background big"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-6">
-                        <div class="section-gallery-background"></div>
-                        <div class="section-gallery-text img img-line">
-                            <h2>Mūsų darbų pavyzdžiai</h2>
-                            <p class="spaced">Lorem ipsum dolor</p>
-                        </div>
-                        <div class="section-gallery-background"></div>
                     </div>
                 </div>
             </div>
