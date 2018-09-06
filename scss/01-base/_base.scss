@@ -12,7 +12,7 @@ body {
 
 p {
     color: $grey;
-    line-height: 1.65;
+    line-height: 32px;
     &.spaced {
         font-weight: 300;
         letter-spacing: 4px;
@@ -20,7 +20,7 @@ p {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     transition: all .2s ease;
     color: $color-primary;
 
@@ -43,13 +43,17 @@ li {
     padding-bottom: 0.681rem;
 }
 
-
-h1, h2, h3, h4, h5, h6, .navigation{
+h1, h2, h3, h4, h5, .navigation{
     font-family: $primary-font;
     font-weight: 400;
-    line-height: 1.1;  
+    line-height: 1.1;
+    font-weight: bold;
 }
 
+h1, h2, h3, h4, h5 {
+    margin-top: 0.454rem;
+    margin-bottom: 0.454rem;
+}
 
 h1 {
     font-size: $font-size-1;
@@ -57,8 +61,6 @@ h1 {
 
 h2 {
     font-size: $font-size-2;
-    margin-top: 1.75rem;
-    margin-bottom: 1.75rem;
 }
 
 h3 {
@@ -74,12 +76,14 @@ h5 {
 }
 
 .sub-title {
+    font-weight: 600;
+    line-height: 1.2;
 
     &.sub-title-primary {
         background-color: $purple-light;
         color: white;
+        padding: 0.227rem 0.454rem;
         text-transform: uppercase;
-        padding: 0.227rem;
         letter-spacing: 1px;
     }
 
@@ -88,8 +92,3 @@ h5 {
 blockquote {
     line-height: 1.2rem;
 }
-
-
-// @include media-breakpoint-up(1560) {
-
-// }

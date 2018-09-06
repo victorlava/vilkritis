@@ -3,8 +3,9 @@
     padding-top: 4.545rem;
     color: $white;
     padding-bottom: 1.363rem;
+    font-size: 0.818rem;
 
-    h3 {
+    h4 {
         opacity: 0.3;
         &:before {
             content: "—";
@@ -16,9 +17,23 @@
         list-style: none;
     }
 
+    li {
+        line-height: 1.09;
+    }
+
     .footer-copyright {
+        font-size: 0.727rem;
         padding-top: 1.363rem;
         border-top: 1px solid rgba(255, 255, 255, 0.6);
+        p {
+            color: white;
+            opacity: 0.6;
+            float: left;
+        }
+    }
+
+    .footer-logo {
+        float: right;
     }
 
     a { color: inherit; }

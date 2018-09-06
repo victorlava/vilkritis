@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-4">
-					<h3>Navigacija</h3>
+					<h4>Navigacija</h4>
 					<ul>
 						<li>
 							<a href="#">Apie mus</a>
@@ -19,7 +19,7 @@
 					</ul>
 				</div>
 				<div class="col-4">
-					<h3>Rekvizitai</h3>
+					<h4>Rekvizitai</h4>
 					<ul>
 						<li>
 							Granito g. 7, LT02241 Vilnius, Lietuva
@@ -33,10 +33,10 @@
 					</ul>
 				</div>
 				<div class="col-4">
-					<h3>Kontaktai</h3>
+					<h4>Kontaktai</h4>
 					<ul>
 						<li>
-							Tel.: +370 5 2691102
+							Tel.: <a href="tel:+37052691102">+370 5 2691102</a>
 						</li>
 						<li>
 							Faks.: +370 5 2691103
@@ -47,9 +47,15 @@
 					</ul>
 				</div>
 			</div>
-			<div class="row footer-copyright">
-				<p>© 2018 <a href="www.vilkritis.com">www.vilkritis.com</a></p>
-				<a href="#">logo</a>
+			<div class="row">
+				<div class="col-12">
+					<div class="footer-copyright clearfix">
+						<p>© 2018 <a href="www.vilkritis.com">www.vilkritis.com</a></p>
+						<a href="#" class="footer-logo">
+							<img src="img/wem-logo.png" width="98" alt="">
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</footer>

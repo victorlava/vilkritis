@@ -4,7 +4,7 @@
 
             <div class="navbar-logo-wrapper">
                 <a class="navbar-logo" href="#">
-                    Vilkritis
+                    <?php include('components/logo.php'); ?>
                 </a>
 
                 <ul class="navbar-nav ml-auto">

@@ -38,7 +38,7 @@ $navbar-light-active-color: $color-primary;
 
 $input-btn-padding-y: 0.818rem;
 $input-btn-padding-x: 2.272rem;
-$input-btn-line-height: 1; 
+$input-btn-line-height: 0.86;
 
 $jumbotron-bg: $grey-light;
 
@@ -46,6 +46,8 @@ $card-border-color: rgba(0,0,0,0);
 $card-inner-border-radius: rgba(0,0,0,0);
 
 $btn-border-radius: 3px;
+
+$headings-margin-bottom: 1.5rem;
 
 $grid-breakpoints: (
   xs: 0,

@@ -15,7 +15,7 @@
                 <h1>
                     Pasitikėjimą kuriame greitai reaguodami
                 </h1>
-                <h5 class="sub-title sub-title-primary mr-auto">net į smulkiausius jūsų poreikius</h5>
+                <h4 class="sub-title sub-title-primary mr-auto">net į smulkiausius jūsų poreikius</h4>
             </div>
         </section>
 
