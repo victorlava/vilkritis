@@ -1,12 +1,18 @@
 .jumbotron {
     position: relative;
 
+
     p {
         max-width: 60%;
+        padding-bottom: 5rem;
     }
 
+    .container { z-index: 1; position: relative; }
+
     .jumbotron-media {
+        position: relative;
         height: 140%;
+        z-index: 4;
         background-size: cover;
         width: 30%;
         background-color: black;
@@ -15,5 +21,32 @@
         top: -20%;
         border-radius: 3px;
         box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+
     }
+
+    .shape-oval {
+        width: 270px;
+        height: 541px;
+        z-index: 0;
+        left: -7%;
+        margin-top: 11%;
+    }
+
+    .shape-circle-1 {
+        width: 163px;
+        height: 163px;
+        right: 23%;
+        top: 45%;
+        transform: translateY(-50%);
+    }
+
+    .shape-circle-2 {
+        width: 75px;
+        height: 75px;
+        right: 32%;
+        bottom: 10%;
+    }
+
+
+
 }

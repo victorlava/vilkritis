@@ -1,0 +1,18 @@
+.shape {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+
+    &.shape-oval {
+        background-image: url('img/combined-shape.svg');
+    }
+
+    &.shape-circle {
+        background-image: url('img/oval-5.svg');
+    }
+
+    &.shape-cta{
+        background-image: url('img/cta-shape.svg');
+    }
+}

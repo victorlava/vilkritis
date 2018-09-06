@@ -8434,6 +8434,20 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 3.636rem;
   color: #FFF;
   text-align: center;
+  position: relative;
+}
+
+.section-cta .shape-cta {
+  height: 100%;
+  width: 356px;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+
+.section-cta .container {
+  position: relative;
+  z-index: 1;
 }
 
 .section-cta p {
@@ -8469,10 +8483,18 @@ a.text-dark:hover, a.text-dark:focus {
 
 .jumbotron p {
   max-width: 60%;
+  padding-bottom: 5rem;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
 }
 
 .jumbotron .jumbotron-media {
+  position: relative;
   height: 140%;
+  z-index: 4;
   background-size: cover;
   width: 30%;
   background-color: black;
@@ -8481,6 +8503,29 @@ a.text-dark:hover, a.text-dark:focus {
   top: -20%;
   border-radius: 3px;
   box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+}
+
+.jumbotron .shape-oval {
+  width: 270px;
+  height: 541px;
+  z-index: 0;
+  left: -7%;
+  margin-top: 11%;
+}
+
+.jumbotron .shape-circle-1 {
+  width: 163px;
+  height: 163px;
+  right: 23%;
+  top: 45%;
+  transform: translateY(-50%);
+}
+
+.jumbotron .shape-circle-2 {
+  width: 75px;
+  height: 75px;
+  right: 32%;
+  bottom: 10%;
 }
 
 .btn {
@@ -8505,6 +8550,25 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn.btn-light {
   color: #42bfa8;
+}
+
+.shape {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+}
+
+.shape.shape-oval {
+  background-image: url("img/combined-shape.svg");
+}
+
+.shape.shape-circle {
+  background-image: url("img/oval-5.svg");
+}
+
+.shape.shape-cta {
+  background-image: url("img/cta-shape.svg");
 }
 
 .card img {

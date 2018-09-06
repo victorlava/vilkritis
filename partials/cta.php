@@ -4,4 +4,5 @@
         <p class="text-white">The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling.</p>
         <a href="#" class="btn btn-light">Susisiekti</a>
     </div>
+    <div class="shape shape-cta"></div>
 </section>
