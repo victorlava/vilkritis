@@ -11,6 +11,7 @@ $color-primary: $purple;
 $color-secondary: $green;
 
 $font-size: 22px;
+// $font-size-base: 1rem; // Bootstrap
 $font-size-multiplier: 1;
 
 $font-size-1: 3.636rem * $font-size-multiplier; // 80px
@@ -18,9 +19,9 @@ $font-size-2: 2.909rem * $font-size-multiplier; // 64px
 $font-size-3: 2.545rem * $font-size-multiplier; // 56px
 $font-size-4: 1.454rem * $font-size-multiplier; // 32px
 $font-size-5: 0.818rem * $font-size-multiplier; // 18px
-$font-size-6: 0.727rem * $font-size-multiplier; // 16px
+$font-size-6: 0.636rem * $font-size-multiplier; // 14px
 
-$primary-font: "Proxima Nova", "Tahoma", sans-serif;
+$primary-font: "Metropolis", "Tahoma", sans-serif;
 
 
 // Bootstrap override
@@ -37,6 +38,7 @@ $navbar-light-active-color: $color-primary;
 
 $input-btn-padding-y: 0.818rem;
 $input-btn-padding-x: 2.272rem;
+$input-btn-line-height: 1; 
 
 $jumbotron-bg: $grey-light;
 

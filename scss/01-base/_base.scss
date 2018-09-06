@@ -6,6 +6,7 @@ body {
     font-size: 1rem;
     font-family: $primary-font;
     margin: 0;
+    line-height: 1;
     color: $color-primary;
 }
 
@@ -46,7 +47,7 @@ li {
 h1, h2, h3, h4, h5, h6, .navigation{
     font-family: $primary-font;
     font-weight: 400;
-    line-height: 1.2;
+    line-height: 1.1;  
 }
 
 

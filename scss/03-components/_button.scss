@@ -3,8 +3,13 @@
     text-transform: uppercase;
     min-width: 130px;
     font-size: $font-size-6;
+    font-weight: bold;
 
     &.btn-link {
         text-transform: uppercase;
     }
+
+    &.btn-primary { color: $color-primary; }
+    &.btn-secondary { color: $color-secondary; }
+    
 }
