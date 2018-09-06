@@ -65,3 +65,16 @@ $container-max-widths: (
   xl: 1140px,
   xxl: 1350px
 ) !default;
+
+
+$dropdown-padding-y:                .6rem;
+$dropdown-border-radius:            4px;
+$dropdown-box-shadow:               0 1px 2px 0 rgba(25, 28, 30, 0.25),
+                                    0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+//
+$dropdown-link-color:              $grey;
+$dropdown-link-hover-color:        $white;
+$dropdown-link-hover-bg:           $purple-light;
+
+$dropdown-item-padding-y:           .35rem !default;
+$dropdown-item-padding-x:           1.2rem !default;

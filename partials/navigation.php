@@ -21,7 +21,6 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Lithuanian</a>
                             <a class="dropdown-item" href="#">English</a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Russian</a>
                         </div>
                     </li>
@@ -35,7 +34,6 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">Action</a>
                             <a class="dropdown-item" href="#">Another action</a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>

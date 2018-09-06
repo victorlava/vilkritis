@@ -2549,7 +2549,7 @@ input[type="button"].btn-block {
   display: none;
   float: left;
   min-width: 10rem;
-  padding: 0.5rem 0;
+  padding: 0.6rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
   color: #212529;
@@ -2558,7 +2558,7 @@ input[type="button"].btn-block {
   background-color: #FFF;
   background-clip: padding-box;
   border: 1px solid rgba(25, 28, 30, 0.15);
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .dropdown-menu-right {
@@ -2675,10 +2675,10 @@ input[type="button"].btn-block {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1.5rem;
+  padding: 0.35rem 1.2rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #6a6c6d;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -2686,9 +2686,9 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #FFF;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: rgba(110, 103, 206, 0.6);
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -2708,7 +2708,7 @@ input[type="button"].btn-block {
 
 .dropdown-header {
   display: block;
-  padding: 0.5rem 1.5rem;
+  padding: 0.6rem 1.2rem;
   margin-bottom: 0;
   font-size: 0.875rem;
   color: #6c757d;
@@ -2717,8 +2717,8 @@ input[type="button"].btn-block {
 
 .dropdown-item-text {
   display: block;
-  padding: 0.25rem 1.5rem;
-  color: #212529;
+  padding: 0.35rem 1.2rem;
+  color: #6a6c6d;
 }
 
 .btn-group,
@@ -8390,6 +8390,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .navigation .nav-item-language {
+  margin-left: .7rem;
   flex-basis: 20%;
 }
 
@@ -8405,6 +8406,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .navigation .collapse.navbar-collapse {
   flex-basis: 65%;
+}
+
+.navigation .dropdown a {
+  font-size: 0.818rem;
 }
 
 .section {
@@ -8446,6 +8451,7 @@ a.text-dark:hover, a.text-dark:focus {
 .section-narrow .section-image {
   flex-basis: 35%;
   background-color: #6e67ce;
+  background-size: cover;
 }
 
 .section-narrow .section-text {

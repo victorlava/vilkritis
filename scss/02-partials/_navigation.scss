@@ -22,6 +22,7 @@
 	}
 
 	.nav-item-language {
+		margin-left: .7rem;
 		flex-basis: 20%;
 	}
 
@@ -35,6 +36,10 @@
 
 	.collapse.navbar-collapse {
 		flex-basis: 65%;
+	}
+
+	.dropdown a {
+		font-size: $font-size-5;
 	}
 
 
