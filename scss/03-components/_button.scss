@@ -1,12 +1,16 @@
 .btn {
     letter-spacing: 2px;
     text-transform: uppercase;
-    min-width: 130px;
     font-size: $font-size-6;
     font-weight: bold;
+    min-width: 130px;
 
-    &.btn-link { 
+
+    &.btn-link {
         text-transform: uppercase;
+        @include media-breakpoint-down(md) {
+            padding: 1rem .5rem;
+        }
     }
 
     &.btn-primary { color: $color-primary; }

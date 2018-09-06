@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-md-4">
                         <div class="card text-center">
                           <img class="card-img-top rounded-circle" src="img/oval-2.jpg" alt="Card image cap">
                           <div class="card-body">
@@ -50,7 +50,7 @@
                           </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-sm-6 col-md-4">
                         <div class="card text-center">
                           <img class="card-img-top rounded-circle" src="img/oval-2-copy.jpg" alt="Card image cap">
                           <div class="card-body">
@@ -60,9 +60,9 @@
                           </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-sm-12 col-md-4">
                         <div class="card text-center">
-                          <img class="card-img-top rounded-circle" src="img/oval-2-copy-2.jpg" alt="Card image cap">
+                          <img class="card-img-top rounded-circle" src="img/oval-2-copy.jpg" alt="Card image cap">
                           <div class="card-body">
                             <h4 class="card-title">Card title</h4>
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>

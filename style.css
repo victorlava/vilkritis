@@ -8413,7 +8413,13 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .section {
-  padding: 6.81rem;
+  padding: 3rem 0;
+}
+
+@media (min-width: 992px) {
+  .section {
+    padding: 6.81rem;
+  }
 }
 
 .section.section-shadow {
@@ -8531,13 +8537,19 @@ a.text-dark:hover, a.text-dark:focus {
 .btn {
   letter-spacing: 2px;
   text-transform: uppercase;
-  min-width: 130px;
   font-size: 0.636rem;
   font-weight: bold;
+  min-width: 130px;
 }
 
 .btn.btn-link {
   text-transform: uppercase;
+}
+
+@media (max-width: 991.98px) {
+  .btn.btn-link {
+    padding: 1rem .5rem;
+  }
 }
 
 .btn.btn-primary {

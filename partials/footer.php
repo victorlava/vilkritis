@@ -1,7 +1,7 @@
 	<footer class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-4">
+				<div class="col-md-4">
 					<h4>Navigacija</h4>
 					<ul>
 						<li>
@@ -18,7 +18,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-4">
+				<div class="col-md-4">
 					<h4>Rekvizitai</h4>
 					<ul>
 						<li>
@@ -32,7 +32,7 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-4">
+				<div class="col-md-4">
 					<h4>Kontaktai</h4>
 					<ul>
 						<li>
