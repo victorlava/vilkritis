@@ -1,4 +1,53 @@
 .card {
+
+    .card-header {
+
+        h4 {
+            position: relative;
+            cursor: pointer;
+
+            &:hover { color: $color-primary; }
+
+            &:after {
+                width: 26px;
+                height: 18px;
+                content: "";
+                position: absolute;
+                right: 18px;
+                top: 25%;
+                background-size: 100%;
+                background-repeat: no-repeat;
+            }
+            &[aria-expanded="false"] {
+                &:after { background-image: url('img/accordion-closed.svg'); }
+            }
+
+            &[aria-expanded="true"] {
+                color: $color-primary;
+                &:after { background-image: url('img/accordion-opened.svg'); }
+            }
+        }
+    }
+
+    .card-header-info {
+        color: #afb0b1;
+        text-transform: uppercase;
+        line-height: 1;
+        margin-bottom: 0;
+        margin-top: .3rem;
+        span {
+            padding-right: 2rem;
+            font-size: $font-size-6;
+            letter-spacing: 2px;
+        }
+    }
+
+    .card-body {
+        padding-top: 0;
+        color: $grey;
+        p { margin-bottom: 1.25rem; }
+    }
+
     img {
         max-width: 250px;
         margin: 0 auto;
@@ -6,4 +55,12 @@
      }
 
      p { margin-bottom: 0.3rem}
+
+
+     border-top: 1px solid #e5e5e5 !important;
+
+     &:last-child {
+         border-bottom: 1px solid #e5e5e5 !important;
+     }
+
 }

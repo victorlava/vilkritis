@@ -17,4 +17,28 @@
         }
         margin-top: 0;
     }
+
+    .section-image {
+        background-color: $color-primary;
+        background-size: cover;
+    }
+
+    .section-text {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        color: black;
+        justify-content: center;
+        padding-right: 2rem;
+        padding-left: 2.45rem;
+
+        p {
+            max-width: 750px;
+            line-height: 1.636rem;
+        }
+
+        @include media-breakpoint-up(xl) {
+			padding-left: 5.45rem;
+	    }
+    }
 }
