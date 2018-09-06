@@ -3,6 +3,9 @@
 	Description: Arredo Deko WordPress theme
 	Version: 1.0.0
 */
+@import "functions";
+@import "variables";
+@import "mixins";
 
 /* 01. Base */
 @import "01-base/settings";

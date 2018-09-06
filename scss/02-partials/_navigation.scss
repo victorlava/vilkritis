@@ -3,6 +3,10 @@
 	top: 0;
 	width: 100%;
 	font-size: $font-size-5;
+	background: #dedede;
+	@include media-breakpoint-up(lg) {
+		background: transparent;
+	}
 
 	.navbar {
 		padding: 2rem 1rem;
@@ -19,11 +23,16 @@
 		justify-content: space-between;
     	align-content: space-between;
 		flex-basis: 100%;
+		@include media-breakpoint-down(lg) {
+			padding: 10px 0;
+	    }
 	}
 
 	.nav-item-language {
-		margin-left: .7rem;
 		flex-basis: 20%;
+		@include media-breakpoint-up(lg) {
+			margin-left: .7rem;
+	    }
 	}
 
 	.navbar-logo-wrapper {
@@ -31,7 +40,12 @@
 		flex-basis: 35%;
 		justify-content: space-between;
 
-		svg { max-width: 223px; }
+		svg {
+			max-width: 177px;
+			@include media-breakpoint-up(lg) {
+				max-width: 223px; 
+		    }
+		}
 	}
 
 	.collapse.navbar-collapse {

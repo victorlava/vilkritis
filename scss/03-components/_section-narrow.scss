@@ -1,20 +1,33 @@
 .section-narrow {
     display: flex;
-    min-height: 1020px;
-    padding: 0;
+    // padding: 0;
+    min-height: 450px;
+    height: 100vh;
+
+    @include media-breakpoint-up(lg) {
+        min-height: 1020px;
+        height: auto;
+        padding: 0;
+    }
 
     .section-image {
-        flex-basis: 35%;
+        flex-basis: 0%;
         background-color: $color-primary;
         background-size: cover;
+        @include media-breakpoint-up(lg) {
+            flex-basis: 35%;
+	    }
     }
 
     .section-text {
-        flex-basis: 65%;
-        padding-left: 5.45rem;
+        flex-basis: 100%;
         display: flex;
         flex-direction: column;
         color: black;
         justify-content: center;
+        @include media-breakpoint-up(lg) {
+			padding-left: 5.45rem;
+            flex-basis: 65%;
+	    }
     }
 }

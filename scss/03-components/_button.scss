@@ -8,6 +8,7 @@
 
     &.btn-link {
         text-transform: uppercase;
+        color: $color-primary;
         @include media-breakpoint-down(md) {
             padding: 1rem .5rem;
         }
