@@ -2,6 +2,28 @@
 	position: absolute;
 	top: 0;
 	width: 100%;
+	font-size: $font-size-5;
+
+	.navbar {
+		padding: 2rem 1rem;
+
+		li {
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: .2rem;
+			padding-right: .2rem;
+		}
+	}
+
+	.navbar-nav {
+		justify-content: space-between;
+    	align-content: space-between;
+		flex-basis: 100%;
+	}
+
+	.nav-item-language {
+		flex-basis: 20%;
+	}
 
 	.navbar-logo-wrapper {
 		display: flex;

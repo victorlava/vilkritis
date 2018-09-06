@@ -3592,8 +3592,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-sm .navbar-nav .nav-link {
-    padding-right: 2.66rem;
-    padding-left: 2.66rem;
+    padding-right: inherit;
+    padding-left: inherit;
   }
   .navbar-expand-sm > .container,
   .navbar-expand-sm > .container-fluid {
@@ -3628,8 +3628,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 2.66rem;
-    padding-left: 2.66rem;
+    padding-right: inherit;
+    padding-left: inherit;
   }
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
@@ -3664,8 +3664,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 2.66rem;
-    padding-left: 2.66rem;
+    padding-right: inherit;
+    padding-left: inherit;
   }
   .navbar-expand-lg > .container,
   .navbar-expand-lg > .container-fluid {
@@ -3700,8 +3700,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 2.66rem;
-    padding-left: 2.66rem;
+    padding-right: inherit;
+    padding-left: inherit;
   }
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
@@ -3736,8 +3736,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-xxl .navbar-nav .nav-link {
-    padding-right: 2.66rem;
-    padding-left: 2.66rem;
+    padding-right: inherit;
+    padding-left: inherit;
   }
   .navbar-expand-xxl > .container,
   .navbar-expand-xxl > .container-fluid {
@@ -3772,8 +3772,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-expand .navbar-nav .nav-link {
-  padding-right: 2.66rem;
-  padding-left: 2.66rem;
+  padding-right: inherit;
+  padding-left: inherit;
 }
 
 .navbar-expand > .container,
@@ -8369,6 +8369,28 @@ a.text-dark:hover, a.text-dark:focus {
   position: absolute;
   top: 0;
   width: 100%;
+  font-size: 0.818rem;
+}
+
+.navigation .navbar {
+  padding: 2rem 1rem;
+}
+
+.navigation .navbar li {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: .2rem;
+  padding-right: .2rem;
+}
+
+.navigation .navbar-nav {
+  justify-content: space-between;
+  align-content: space-between;
+  flex-basis: 100%;
+}
+
+.navigation .nav-item-language {
+  flex-basis: 20%;
 }
 
 .navigation .navbar-logo-wrapper {
