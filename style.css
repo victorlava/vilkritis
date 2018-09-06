@@ -7464,6 +7464,7 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   font-size: 0.818rem;
   background: #dedede;
+  z-index: 1;
 }
 
 @media (min-width: 992px) {
@@ -7516,6 +7517,14 @@ a.text-dark:hover, a.text-dark:focus {
   .navigation .nav-item-language {
     margin-left: .7rem;
   }
+}
+
+.navigation .nav-item-language-white a.nav-link {
+  color: white;
+}
+
+.navigation .nav-item-language-white a.nav-link:active, .navigation .nav-item-language-white a.nav-link:focus, .navigation .nav-item-language-white a.nav-link:hover {
+  color: white;
 }
 
 .navigation .navbar-logo-wrapper {
@@ -7574,6 +7583,7 @@ a.text-dark:hover, a.text-dark:focus {
 .section .section-image {
   background-color: #6e67ce;
   background-size: cover;
+  background-position: center center;
 }
 
 .section .section-text {
@@ -7849,14 +7859,21 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .card .card-header h4:after {
-  width: 26px;
-  height: 18px;
+  width: 16px;
+  height: 11px;
   content: "";
   position: absolute;
   right: 18px;
   top: 25%;
   background-size: 100%;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 992px) {
+  .card .card-header h4:after {
+    width: 26px;
+    height: 18px;
+  }
 }
 
 .card .card-header h4[aria-expanded="false"]:after {

@@ -3,12 +3,12 @@
 <body id="karjera">
     <!-- start of #home-page -->
 
-    <?php include('partials/navigation.php'); ?>
+    <?php include('partials/navigation-white.php'); ?>
 
     <main>
 
         <section class="section section-wide">
-            <div class="section-image" style="background-image:url('img/rectangle.jpg');">
+            <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
                 <div class="shape shape-circle shape-circle-1"></div>
             </div>
             <div class="section-text">
