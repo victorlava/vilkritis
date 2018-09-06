@@ -4,12 +4,22 @@
 	width: 100%;
 	font-size: $font-size-5;
 	background: #dedede;
+
 	@include media-breakpoint-up(lg) {
 		background: transparent;
 	}
 
+	@include media-breakpoint-up(xl) {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
 	.navbar {
 		padding: 2rem 1rem;
+
+		@include media-breakpoint-up(xl) {
+			padding: 2rem 1rem;
+		}
 
 		li {
 			padding-top: 0;
@@ -29,7 +39,7 @@
 	}
 
 	.nav-item-language {
-		flex-basis: 20%;
+		flex-basis: 18%;
 		@include media-breakpoint-up(lg) {
 			margin-left: .7rem;
 	    }
@@ -43,7 +53,7 @@
 		svg {
 			max-width: 177px;
 			@include media-breakpoint-up(lg) {
-				max-width: 223px; 
+				max-width: 223px;
 		    }
 		}
 	}

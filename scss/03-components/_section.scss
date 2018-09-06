@@ -11,7 +11,7 @@
     h1 { margin-bottom: 0.454rem; }
 
     .sub-title {
-        font-size: 1.09rem * $font-size-decrease;
+        font-size: 1.09rem;
         @include media-breakpoint-up(lg) {
             font-size: 1.09rem;
         }
