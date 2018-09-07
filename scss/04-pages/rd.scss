@@ -1,0 +1,8 @@
+#rd {
+    .section-image {
+        min-height: 270px;
+        @include media-breakpoint-up(md) {
+			min-height: 470px;
+	    }
+    }
+}

@@ -24,6 +24,10 @@
         background-position: center center;
     }
 
+    .section-image-shadow {
+        box-shadow: 0 20px 50px 0px rgba(0,0,0,0.1);
+    }
+
     .section-text {
         flex-basis: 100%;
         display: flex;

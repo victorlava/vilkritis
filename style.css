@@ -8180,6 +8180,10 @@ blockquote {
   background-position: center center;
 }
 
+.section .section-image-shadow {
+  box-shadow: 0 20px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
 .section .section-text {
   flex-basis: 100%;
   display: flex;
@@ -8572,6 +8576,16 @@ blockquote {
 
 .card-contact .card-contact-link {
   padding-top: 1.2rem;
+}
+
+#rd .section-image {
+  min-height: 270px;
+}
+
+@media (min-width: 768px) {
+  #rd .section-image {
+    min-height: 470px;
+  }
 }
 
 #karjera .section-image {
