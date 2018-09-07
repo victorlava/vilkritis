@@ -8,6 +8,10 @@
           box-shadow: 0 10px 35px 0 rgba(25, 28, 30, 0.07);
     }
 
+    &.section-gradient {
+          background-image: linear-gradient(to bottom, #ffffff, #f0f2f7);
+    }
+
     h1 { margin-bottom: 0.454rem; }
 
     .sub-title {
@@ -27,6 +31,7 @@
     .section-image-shadow {
         box-shadow: 0 20px 50px 0px rgba(0,0,0,0.1);
     }
+
 
     .section-text {
         flex-basis: 100%;

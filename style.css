@@ -8159,6 +8159,10 @@ blockquote {
   box-shadow: 0 10px 35px 0 rgba(25, 28, 30, 0.07);
 }
 
+.section.section-gradient {
+  background-image: linear-gradient(to bottom, #ffffff, #f0f2f7);
+}
+
 .section h1 {
   margin-bottom: 0.454rem;
 }
@@ -8441,6 +8445,36 @@ blockquote {
 
 .shape.shape-cta {
   background-image: url("img/cta-shape.svg");
+}
+
+.shape.shape-orbit {
+  width: 150px;
+  height: 150px;
+  border: solid 2.6px #42bfa8;
+  border-radius: 10rem;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .shape.shape-orbit {
+    margin-top: 5rem;
+  }
+}
+
+.shape.shape-orbit:after {
+  content: "";
+  width: 85%;
+  height: 85%;
+  background-color: #42bfa8;
+  border-radius: 10rem;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
 }
 
 .map {
