@@ -8188,6 +8188,19 @@ blockquote {
   box-shadow: 0 20px 50px 0px rgba(0, 0, 0, 0.1);
 }
 
+.section .section-media-hoverable {
+  border-radius: 3px;
+  position: relative;
+  background-blend-mode: darken;
+}
+
+.section .section-media-hoverable h5 {
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: white;
+}
+
 .section .section-text {
   flex-basis: 100%;
   display: flex;
@@ -8207,6 +8220,32 @@ blockquote {
   .section .section-text {
     padding-left: 5.45rem;
   }
+}
+
+.section-tabs .section-tabs-wrapper {
+  background: white;
+  border: 1px solid #d3d3d3;
+  border-radius: 6px;
+  padding: 0;
+}
+
+.section-tabs .nav-tabs {
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.section-tabs .nav-tabs li {
+  padding: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.section-tabs .nav-tabs li a {
+  padding: 1rem;
+}
+
+.section-tabs .section-media {
+  min-height: 280px;
 }
 
 .section-cta {
@@ -8610,6 +8649,10 @@ blockquote {
 
 .card-contact .card-contact-link {
   padding-top: 1.2rem;
+}
+
+#tiekimas .section-media {
+  margin-bottom: 1.5rem;
 }
 
 #rd .section-image {

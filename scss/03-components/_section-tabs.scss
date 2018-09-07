@@ -1,0 +1,26 @@
+.section-tabs {
+
+    .section-tabs-wrapper {
+        background: white;
+        border: 1px solid #d3d3d3;
+        border-radius: 6px;
+        padding: 0;
+    }
+
+    .nav-tabs {
+        flex-direction: row;
+        align-items: stretch;
+        li {
+            padding: 0;
+            flex: 1;
+            text-align: center;
+            a {
+                padding: 1rem;
+            }
+        }
+    }
+
+    .section-media {
+        min-height: 280px;
+    }
+}
