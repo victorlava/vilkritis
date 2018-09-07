@@ -68,3 +68,18 @@
      }
 
 }
+
+.card-contact {
+    padding: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25),
+                0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+
+    h5 { margin-bottom: 0;}
+    .card-header-info { margin-top: 0;}
+
+    heading { padding-bottom: 1.2rem; }
+    .card-contact-link { padding-top: 1.2rem; }
+
+
+}

@@ -1,0 +1,26 @@
+.map {
+    position: relative;
+    iframe { width: 100%; }
+
+    .map-info {
+        padding: 1.363rem;
+        border-radius: 3px;
+        background-color: rgba(25, 28, 30, 0.7);
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        margin: 0 auto;
+        color: white;
+        p { color: white; }
+
+        @include media-breakpoint-up(lg) {
+            max-width: 404px;
+            // max-width: auto;
+            margin: 0;
+            left: 140px;
+            top: 100px;
+        }
+    }
+
+}

@@ -10,6 +10,9 @@ $green: #42bfa8;
 $color-primary: $purple;
 $color-secondary: $green;
 
+$blue: $color-primary;
+$secondary: $color-secondary;
+
 $font-size: 22px;
 // $font-size-base: 1rem; // Bootstrap
 $font-size-multiplier: 1;
@@ -37,9 +40,24 @@ $navbar-light-color: $black;
 $navbar-light-hover-color: $color-primary;
 $navbar-light-active-color: $color-primary;
 
+$input-padding-y: 0.822rem;
+$input-padding-x: 1.09rem;
+$input-height:  2.78rem;
+
 $input-btn-padding-y: 0.818rem;
 $input-btn-padding-x: 2.272rem;
 $input-btn-line-height: 0.86;
+
+$input-border-radius:   3px;
+
+$input-placeholder-color: #afb0b1;
+$input-plaintext-color: $black;
+
+$input-border-color: rgba(25, 28, 30, 0.2);
+$input-box-shadow: 0;
+
+$input-focus-color:  #000;
+
 
 $jumbotron-bg: $grey-light;
 

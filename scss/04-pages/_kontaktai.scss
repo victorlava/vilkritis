@@ -1,0 +1,16 @@
+#kontaktai {
+    .card-contact {
+
+    }
+
+    textarea { min-height: 280px; }
+
+    .card-contact p {
+        @include media-breakpoint-up(lg) {
+            font-size: 0.7rem;
+        }
+        @include media-breakpoint-up(xl) {
+            font-size: $font-size-base;
+        }
+    }
+}
