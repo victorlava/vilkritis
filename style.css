@@ -7889,6 +7889,7 @@ ul, blockquote {
 li {
   padding-top: 0.681rem;
   padding-bottom: 0.681rem;
+  color: #6a6c6d;
 }
 
 h1, h2, h3, h4, h5, .navigation {
@@ -8161,6 +8162,42 @@ blockquote {
 
 .section.section-gradient {
   background-image: linear-gradient(to bottom, #ffffff, #f0f2f7);
+}
+
+.section.section-text {
+  max-width: 830px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 6.81rem 2rem;
+}
+
+.section.section-text h1 {
+  font-size: 2.909rem;
+  padding-bottom: .8rem;
+}
+
+.section.section-text a {
+  color: #42bfa8;
+  text-decoration: underline !important;
+}
+
+.section.section-text ul {
+  list-style: none;
+  padding: .5rem 0;
+}
+
+.section.section-text ul li {
+  padding: 0;
+  padding-bottom: 1rem;
+}
+
+.section.section-text ul li:before {
+  content: "•";
+  color: #42bfa8;
+  padding-right: 1rem;
+  font-size: 2.045rem;
+  vertical-align: middle;
 }
 
 .section.section-bubble {

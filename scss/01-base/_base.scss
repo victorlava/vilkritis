@@ -21,6 +21,8 @@ p {
     }
 }
 
+
+
 a {
     text-decoration: none !important;
     transition: all .2s ease;
@@ -43,6 +45,7 @@ ul, blockquote {
 li {
     padding-top: 0.681rem;
     padding-bottom: 0.681rem;
+    color: $grey;
 }
 
 h1, h2, h3, h4, h5, .navigation{
