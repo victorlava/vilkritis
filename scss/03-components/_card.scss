@@ -4,6 +4,29 @@
         border-color: transparent !important;
     }
 
+
+    &.card-download {
+        border-color: transparent !important;
+        padding: 2.31rem 1rem;
+
+        &:last-child { border:0 !important; }
+
+        img {
+            padding-bottom: 2.318rem;
+        }
+
+        .btn { margin: 0 auto; }
+
+        p {
+            font-size: $font-size-6;
+            line-height: 18px;
+            padding-bottom: 1.77rem;
+            max-width: 80%;
+            margin: 0 auto;
+        }
+
+    }
+
     .card-header {
 
         h4 {

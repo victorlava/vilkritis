@@ -1,0 +1,39 @@
+
+.slick-prev {
+    background: url('img/group-6 (1).svg');
+    left: -60px;
+}
+
+.slick-next {
+    background: url('img/group-6-copy (1).svg');
+    right: -60px;
+}
+
+.slick-track {
+    padding: .5rem 0;
+}
+.slick-download {
+    .col-md-4:nth-child(even) .card-download {
+        box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+    }
+}
+
+.slick-slide:focus, .slick-arrow:focus {
+    outline: none !important;
+}
+
+.slick-arrow {
+    width: 34px;
+    height: 57px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+    background-size: cover;
+    color: transparent;
+    -webkit-appearance: none;
+    top: 50%;
+    transform: translateY(-50%);
+}

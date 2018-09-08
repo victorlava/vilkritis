@@ -8470,12 +8470,51 @@ blockquote {
   }
 }
 
+.slick-prev {
+  background: url("img/group-6 (1).svg");
+  left: -60px;
+}
+
+.slick-next {
+  background: url("img/group-6-copy (1).svg");
+  right: -60px;
+}
+
+.slick-track {
+  padding: .5rem 0;
+}
+
+.slick-download .col-md-4:nth-child(even) .card-download {
+  box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+}
+
+.slick-slide:focus, .slick-arrow:focus {
+  outline: none !important;
+}
+
+.slick-arrow {
+  width: 34px;
+  height: 57px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: 0 auto;
+  border: 0;
+  outline: 0;
+  background-size: cover;
+  color: transparent;
+  -webkit-appearance: none;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .btn {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-size: 0.636rem;
   font-weight: bold;
   min-width: 130px;
+  max-width: 190px;
 }
 
 .btn.btn-link {
@@ -8589,6 +8628,31 @@ blockquote {
 
 .card.card-simple, .card.card-simple:last-child {
   border-color: transparent !important;
+}
+
+.card.card-download {
+  border-color: transparent !important;
+  padding: 2.31rem 1rem;
+}
+
+.card.card-download:last-child {
+  border: 0 !important;
+}
+
+.card.card-download img {
+  padding-bottom: 2.318rem;
+}
+
+.card.card-download .btn {
+  margin: 0 auto;
+}
+
+.card.card-download p {
+  font-size: 0.636rem;
+  line-height: 18px;
+  padding-bottom: 1.77rem;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .card .card-header h4 {
