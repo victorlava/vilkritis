@@ -8163,6 +8163,18 @@ blockquote {
   background-image: linear-gradient(to bottom, #ffffff, #f0f2f7);
 }
 
+.section.section-bubble {
+  min-height: 1200px;
+  background-position: center right;
+  background-size: 820px 850px;
+  background-repeat: no-repeat;
+  background-image: url("img/bubble.svg");
+}
+
+.section.section-bubble p {
+  padding-top: 10rem;
+}
+
 .section h1 {
   margin-bottom: 0.454rem;
 }
@@ -8374,7 +8386,7 @@ blockquote {
 }
 
 .jumbotron p {
-  max-width: 60%;
+  max-width: 687px;
   padding-bottom: 5rem;
 }
 
@@ -8395,6 +8407,11 @@ blockquote {
   top: -20%;
   border-radius: 3px;
   box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+}
+
+.jumbotron .jumbotron-media-left {
+  left: 0;
+  right: initial;
 }
 
 .jumbotron .shape-oval {
@@ -8653,6 +8670,64 @@ blockquote {
   padding-bottom: 1.77rem;
   max-width: 80%;
   margin: 0 auto;
+}
+
+.card.card-about {
+  color: white;
+  padding: 1rem;
+  position: relative;
+}
+
+.card.card-about .card-title {
+  text-align: center;
+  position: absolute;
+  top: -70px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-size: 6.36rem;
+}
+
+.card.card-about .card-subtitle {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.card.card-about p {
+  color: white;
+}
+
+.card.card-about.card-about-primary {
+  background-color: #6e67ce;
+}
+
+.card.card-about.card-about-primary .card-title {
+  text-shadow: #6e67ce 1px 0px 0px, #6e67ce 0.540302px 0.841471px 0px, #6e67ce -0.416147px 0.909297px 0px, #6e67ce -0.989992px 0.14112px 0px, #6e67ce -0.653644px -0.756802px 0px, #6e67ce 0.283662px -0.958924px 0px, #6e67ce 0.96017px -0.279415px 0px;
+}
+
+.card.card-about.card-about-secondary {
+  background-color: #67b334;
+}
+
+.card.card-about.card-about-secondary .card-title {
+  text-shadow: #67b334 1px 0px 0px, #67b334 0.540302px 0.841471px 0px, #67b334 -0.416147px 0.909297px 0px, #67b334 -0.989992px 0.14112px 0px, #67b334 -0.653644px -0.756802px 0px, #67b334 0.283662px -0.958924px 0px, #67b334 0.96017px -0.279415px 0px;
+}
+
+.card.card-about.card-about-teal {
+  background-color: #42bfa8;
+}
+
+.card.card-about.card-about-teal .card-title {
+  text-shadow: #42bfa8 1px 0px 0px, #42bfa8 0.540302px 0.841471px 0px, #42bfa8 -0.416147px 0.909297px 0px, #42bfa8 -0.989992px 0.14112px 0px, #42bfa8 -0.653644px -0.756802px 0px, #42bfa8 0.283662px -0.958924px 0px, #42bfa8 0.96017px -0.279415px 0px;
+}
+
+.card.card-about.card-about-neutral {
+  background-color: #afb0b1;
+}
+
+.card.card-about.card-about-neutral .card-title {
+  text-shadow: #afb0b1 1px 0px 0px, #afb0b1 0.540302px 0.841471px 0px, #afb0b1 -0.416147px 0.909297px 0px, #afb0b1 -0.989992px 0.14112px 0px, #afb0b1 -0.653644px -0.756802px 0px, #afb0b1 0.283662px -0.958924px 0px, #afb0b1 0.96017px -0.279415px 0px;
 }
 
 .card .card-header h4 {

@@ -1,6 +1,6 @@
 <?php include('partials/head.php'); ?>
 
-<body id="kontaktai">
+<body id="ekologiskumas">
     <!-- start of #home-page -->
 
     <?php include('partials/navigation-white.php'); ?>

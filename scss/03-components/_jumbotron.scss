@@ -3,7 +3,7 @@
 
 
     p {
-        max-width: 60%;
+        max-width: 687px;
         padding-bottom: 5rem;
     }
 
@@ -22,6 +22,11 @@
         border-radius: 3px;
         box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
 
+    }
+
+    .jumbotron-media-left {
+        left: 0;
+        right: initial;
     }
 
     .shape-oval {

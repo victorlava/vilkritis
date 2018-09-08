@@ -12,6 +12,17 @@
           background-image: linear-gradient(to bottom, #ffffff, #f0f2f7);
     }
 
+    &.section-bubble {
+        min-height: 1200px;
+        background-position: center right;
+        background-size: 820px 850px;
+        background-repeat: no-repeat;
+        background-image: url('img/bubble.svg');
+        p {
+            padding-top: 10rem;
+        }
+    }
+
     h1 { margin-bottom: 0.454rem; }
 
     .sub-title {

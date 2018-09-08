@@ -27,6 +27,54 @@
 
     }
 
+    &.card-about {
+        color: white;
+        padding: 1rem;
+        position: relative;
+
+        .card-title {
+            text-align: center;
+            position: absolute;
+            top: -70px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            font-size: 6.36rem;
+        }
+
+        .card-subtitle {
+            padding-top: 3rem;
+            padding-bottom: 1rem;
+            text-align: center;
+        }
+
+        p { color: white; }
+        &.card-about-primary {
+            background-color: #6e67ce;
+            .card-title {
+                text-shadow: rgb(110, 103, 206) 1px 0px 0px, rgb(110, 103, 206) 0.540302px 0.841471px 0px, rgb(110, 103, 206) -0.416147px 0.909297px 0px, rgb(110, 103, 206) -0.989992px 0.14112px 0px, rgb(110, 103, 206) -0.653644px -0.756802px 0px, rgb(110, 103, 206) 0.283662px -0.958924px 0px, rgb(110, 103, 206) 0.96017px -0.279415px 0px;
+            }
+        }
+        &.card-about-secondary {
+            background-color: #67b334;
+            .card-title {
+                text-shadow: #67b334 1px 0px 0px, #67b334 0.540302px 0.841471px 0px, #67b334 -0.416147px 0.909297px 0px, #67b334 -0.989992px 0.14112px 0px, #67b334 -0.653644px -0.756802px 0px, #67b334 0.283662px -0.958924px 0px, #67b334 0.96017px -0.279415px 0px;
+            }
+        }
+        &.card-about-teal {
+            background-color: #42bfa8;
+            .card-title {
+                text-shadow: #42bfa8 1px 0px 0px, #42bfa8 0.540302px 0.841471px 0px, #42bfa8 -0.416147px 0.909297px 0px, #42bfa8 -0.989992px 0.14112px 0px, #42bfa8 -0.653644px -0.756802px 0px, #42bfa8 0.283662px -0.958924px 0px, #42bfa8 0.96017px -0.279415px 0px;
+            }
+        }
+        &.card-about-neutral {
+            background-color: #afb0b1;
+            .card-title {
+                text-shadow: #afb0b1 1px 0px 0px, #afb0b1 0.540302px 0.841471px 0px, #afb0b1 -0.416147px 0.909297px 0px, #afb0b1 -0.989992px 0.14112px 0px, #afb0b1 -0.653644px -0.756802px 0px, #afb0b1 0.283662px -0.958924px 0px, #afb0b1 0.96017px -0.279415px 0px;
+            }
+        }
+    }
+
     .card-header {
 
         h4 {
