@@ -1,5 +1,9 @@
 .card {
 
+    &.card-simple, &.card-simple:last-child {
+        border-color: transparent !important;
+    }
+
     .card-header {
 
         h4 {

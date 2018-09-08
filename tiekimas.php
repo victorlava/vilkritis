@@ -21,7 +21,7 @@
 
         <section class="section section-tabs section-gradient pr-md-3 pl-md-3">
             <div class="container">
-                <div class="row">
+                <div class="row mb-2">
                     <div class="col-12">
                         <h2>Produktai</h2>
                     </div>
@@ -44,59 +44,61 @@
                               </li>
                             </ul>
                             <div class="tab-content" id="myTabContent">
-                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                  <div class="row">
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Produkto pavadinimas</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Produkto pavadinimas</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Labai perdėtai ilgas produkto pavadinimas retiems atvejams</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Produkto pavadinimas</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Produkto pavadinimas</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Labai perdėtai ilgas produkto pavadinimas retiems atvejams</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Produkto pavadinimas</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Produkto pavadinimas</h5>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-4">
+                                          <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
+                                              <h5>Labai perdėtai ilgas produkto pavadinimas retiems atvejams</h5>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
                               <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
                               <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Produkto pavadinimas</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Produkto pavadinimas</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Labai perdėtai ilgas produkto pavadinimas retiems atvejams</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Produkto pavadinimas</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Produkto pavadinimas</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Labai perdėtai ilgas produkto pavadinimas retiems atvejams</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Produkto pavadinimas</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Produkto pavadinimas</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="section-media section-media-hoverable" style="background-image:url('img/rectangle-5.jpg'), linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));">
-                                <h5>Labai perdėtai ilgas produkto pavadinimas retiems atvejams</h5>
-                            </div>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>

@@ -41,7 +41,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="card text-center">
+                        <div class="card card-simple text-center">
                           <img class="card-img-top rounded-circle" src="img/oval-2.jpg" alt="Card image cap">
                           <div class="card-body">
                             <h4 class="card-title">Card title</h4>
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-6 col-md-4">
-                        <div class="card text-center">
+                        <div class="card card-simple text-center">
                           <img class="card-img-top rounded-circle" src="img/oval-2-copy.jpg" alt="Card image cap">
                           <div class="card-body">
                             <h4 class="card-title">Card title</h4>
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="col-12 col-sm-12 col-md-4">
-                        <div class="card text-center">
+                        <div class="card card-simple text-center">
                           <img class="card-img-top rounded-circle" src="img/oval-2-copy.jpg" alt="Card image cap">
                           <div class="card-body">
                             <h4 class="card-title">Card title</h4>

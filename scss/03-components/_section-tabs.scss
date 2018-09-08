@@ -3,6 +3,7 @@
     .section-tabs-wrapper {
         background: white;
         border: 1px solid #d3d3d3;
+        border-top: 0;
         border-radius: 6px;
         padding: 0;
     }
@@ -10,17 +11,51 @@
     .nav-tabs {
         flex-direction: row;
         align-items: stretch;
+        border-bottom: 0;
         li {
             padding: 0;
             flex: 1;
             text-align: center;
+            &:first-child a { border-left: 0 !important; }
+            &:last-child a { border-right: 0 !important; }
+
             a {
                 padding: 1rem;
             }
         }
+
+        a.nav-link {
+            color: $black;
+            padding: 0.781rem;
+
+            &.active {
+                position: relative;
+                bottom: 5px;
+                border-left: 0;
+                border-right: 0;
+            }
+
+            &:not(.active) {
+                color: $grey;
+                border: 1px solid #d3d3d3;
+                background-color: #f9f9f9;
+                border-radius: 0;
+                // position: relative;
+                // top: 5px;
+                // margin-top: 5px;
+            }
+        }
+
+    }
+
+    .tab-content {
+        padding: 3rem 2.27rem 1.27rem 2.27rem;
+        box-shadow: 0 25px 40px 0px rgba(0, 0, 0, 0.1);
     }
 
     .section-media {
         min-height: 280px;
     }
+
+
 }
