@@ -27,15 +27,18 @@
 
     ul {
         list-style: none;
+        margin-top: 1rem;
     }
 
     li {
         line-height: 1.09;
+        color: $white;
     }
 
     .footer-copyright {
         font-size: 0.727rem;
         padding-top: 1.363rem;
+        margin-top: 1.363rem;
         border-top: 1px solid rgba(255, 255, 255, 0.6);
         p {
             color: white;

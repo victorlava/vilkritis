@@ -8027,15 +8027,18 @@ blockquote {
 
 .footer ul {
   list-style: none;
+  margin-top: 1rem;
 }
 
 .footer li {
   line-height: 1.09;
+  color: #FFF;
 }
 
 .footer .footer-copyright {
   font-size: 0.727rem;
   padding-top: 1.363rem;
+  margin-top: 1.363rem;
   border-top: 1px solid rgba(255, 255, 255, 0.6);
 }
 
