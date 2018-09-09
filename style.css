@@ -8684,6 +8684,46 @@ blockquote {
   border-color: transparent !important;
 }
 
+.card.card-process {
+  background-color: transparent;
+  border: 0 !important;
+  padding: 0 2rem;
+}
+
+.card.card-process:last-child {
+  border: 0 !important;
+}
+
+.card.card-process .card-title {
+  margin-bottom: .5rem;
+}
+
+.card.card-process .card-subtitle {
+  font-weight: 300;
+}
+
+.card.card-process figure.card-media {
+  margin: 1rem 0;
+  min-height: 308px;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.card.card-process figure.card-media figcaption {
+  position: absolute;
+  bottom: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -100px;
+  margin: auto;
+  font-size: 6.36rem;
+  color: white;
+  font-weight: 600;
+  text-shadow: #191c1e 1px 0px 0px, #191c1e 0.540302px 0.841471px 0px, #191c1e -0.416147px 0.909297px 0px, #191c1e -0.989992px 0.14112px 0px, #191c1e -0.653644px -0.756802px 0px, #191c1e 0.283662px -0.958924px 0px, #191c1e 0.96017px -0.279415px 0px;
+}
+
 .card.card-download {
   border-color: transparent !important;
   padding: 2.31rem 1rem;
