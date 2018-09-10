@@ -2,6 +2,10 @@
 
     &.card-simple, &.card-simple:last-child {
         border-color: transparent !important;
+        .btn {
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
 
     &.card-process {

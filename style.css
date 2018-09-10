@@ -8597,6 +8597,19 @@ blockquote {
   color: #42bfa8;
 }
 
+.carousel .carousel-item {
+  position: relative;
+}
+
+.carousel .carousel-item .carousel-text {
+  position: absolute;
+  z-index: 3;
+  padding: 1.8rem;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+}
+
 .shape {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -8685,6 +8698,11 @@ blockquote {
 
 .card.card-simple, .card.card-simple:last-child {
   border-color: transparent !important;
+}
+
+.card.card-simple .btn, .card.card-simple:last-child .btn {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .card.card-process {
