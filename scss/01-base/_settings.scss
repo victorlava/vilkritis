@@ -118,3 +118,14 @@ $carousel-control-opacity:          1;
 $carousel-control-prev-icon-bg:     url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='34' height='57' viewBox='0 0 34 57'%3e%3cg fill='#{$carousel-control-color}' fill-rule='nonzero'%3e%3cpath d='M28 .716l5.892 5.892L6.197 34.303.305 28.411z'/%3e%3cpath d='M33.893 50.802l-5.892 5.893L.305 29l5.893-5.893z'/%3e%3c/g%3e%3c/svg%3e ") !default;
 $carousel-control-next-icon-bg:     url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='34' height='57' viewBox='0 0 34 57'%3e%3cpath fill='#{$carousel-control-color}' fill-rule='nonzero' d='M22.205 28.295L.107 6.198 6 .305 33.695 28l-.295.295.295.294L6 56.284.107 50.392l22.098-22.097z'/%3e%3c/svg%3e") !default;
 // $carousel-control-next-icon-bg:     str-replace(url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='34' height='57' viewBox='0 0 34 57'%3e%3cg fill='#{$carousel-control-color}' fill-rule='nonzero'%3e%3cpath d='M28 .716l5.892 5.892L6.197 34.303.305 28.411z'/%3e%3cpath d='M33.893 50.802l-5.892 5.893L.305 29l5.893-5.893z'/%3e%3c/g%3e%3c/svg%3e", "#", "%23") !default;
+
+
+$modal-lg:                          1112px;
+
+$modal-inner-padding:               2.72rem;
+
+$modal-dialog-margin:               .5rem;
+$modal-dialog-margin-y-sm-up:       1.75rem;
+
+$modal-header-padding:              1rem 2.72rem;
+$modal-backdrop-opacity:            .7;

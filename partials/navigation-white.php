@@ -3,7 +3,7 @@
         <div class="container-fluid">
 
             <div class="navbar-logo-wrapper">
-                <a class="navbar-logo" href="#">
+                <a class="navbar-logo" href="/">
                     <?php include('components/logo.php'); ?>
                 </a>
             </div>
@@ -14,7 +14,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
-                    <li class="nav-item nav-item-language nav-item-language-white dropdown"> 
+                    <li class="nav-item nav-item-language nav-item-language-white dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         LT
                         </a>
@@ -24,28 +24,7 @@
                             <a class="dropdown-item" href="#">Russian</a>
                         </div>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Apie mus</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Veikla
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Another action</a>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Procesai</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Kontaktai</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Karjera</a>
-                    </li>
+                    <?php include('menu.php'); ?>
                 </ul>
             </div>
         </div>
