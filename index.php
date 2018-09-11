@@ -76,12 +76,12 @@
 
         <section class="section section-carousel">
             <div class="container">
-                <div class="row text-center pb-2">
+                <div class="row text-center pb-lg-2">
                     <div class="col-12">
                         <h2>Kodėl mus renkasi</h2>
                     </div>
                 </div>
-                <div class="row">
+                <div class="row pb-2">
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                       <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

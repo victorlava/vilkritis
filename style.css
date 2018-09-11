@@ -8157,6 +8157,12 @@ blockquote {
 
 @media (min-width: 992px) {
   .section {
+    padding: 4.81rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section {
     padding: 6.81rem;
   }
 }
@@ -8742,18 +8748,24 @@ blockquote {
   padding: 0 1rem;
 }
 
+.carousel .carousel-item {
+  padding: 0.5rem 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .carousel .carousel-item {
+    padding: 0;
+  }
+}
+
 .carousel .carousel-item .carousel-text {
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  position: absolute;
-  width: 50%;
-  margin-right: 1rem;
   right: 0;
   z-index: 3;
-  padding: 1.8rem;
+  padding: 1.2rem;
+  font-size: 16px;
   background-color: white;
-  box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+  box-shadow: 0 1px 0px 0 rgba(25, 28, 30, 0.25), 0 -1px 0px 0 rgba(25, 28, 30, 0.1);
 }
 
 .carousel .carousel-item .carousel-text h4 {
@@ -8765,14 +8777,36 @@ blockquote {
   margin-bottom: 0;
 }
 
+@media (min-width: 992px) {
+  .carousel .carousel-item .carousel-text {
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .carousel .carousel-item .carousel-text {
+    padding: 1.8rem;
+    margin-right: 1rem;
+  }
+}
+
 .carousel img {
   position: relative;
   top: 0;
   z-index: 2;
-  margin: 2rem 0 2rem 1rem;
-  width: 60%;
   height: 100%;
-  box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .carousel img {
+    margin: 2rem 0 2rem 1rem;
+    width: 60%;
+    box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+  }
 }
 
 .carousel .carousel-indicators {
@@ -8795,11 +8829,35 @@ blockquote {
 }
 
 .carousel .carousel-control-prev {
-  left: -10%;
+  left: -5%;
+}
+
+@media (min-width: 768px) {
+  .carousel .carousel-control-prev {
+    left: -7%;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel .carousel-control-prev {
+    left: -10%;
+  }
 }
 
 .carousel .carousel-control-next {
-  right: -10%;
+  right: -5%;
+}
+
+@media (min-width: 768px) {
+  .carousel .carousel-control-next {
+    right: -7%;
+  }
+}
+
+@media (min-width: 992px) {
+  .carousel .carousel-control-next {
+    right: -10%;
+  }
 }
 
 .shape {

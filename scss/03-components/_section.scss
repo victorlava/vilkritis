@@ -1,8 +1,13 @@
 .section {
     padding: 3rem .75rem;
     @include media-breakpoint-up(lg) {
+        padding: 4.81rem;
+    }
+
+    @include media-breakpoint-up(xl) {
         padding: 6.81rem;
     }
+
 
     &.section-shadow {
           box-shadow: 0 10px 35px 0 rgba(25, 28, 30, 0.07);
