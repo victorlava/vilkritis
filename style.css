@@ -8119,12 +8119,13 @@ blockquote {
   }
 }
 
-.navigation .nav-item-language-white a.nav-link {
-  color: white;
-}
-
-.navigation .nav-item-language-white a.nav-link:active, .navigation .nav-item-language-white a.nav-link:focus, .navigation .nav-item-language-white a.nav-link:hover {
-  color: white;
+@media (min-width: 992px) {
+  .navigation .nav-item-language-white a.nav-link {
+    color: white;
+  }
+  .navigation .nav-item-language-white a.nav-link:active, .navigation .nav-item-language-white a.nav-link:focus, .navigation .nav-item-language-white a.nav-link:hover {
+    color: white;
+  }
 }
 
 .navigation .navbar-logo-wrapper {
