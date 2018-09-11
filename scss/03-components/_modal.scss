@@ -1,0 +1,27 @@
+.modal {
+    .modal-header {
+        color: $black;
+        .close { padding-right: 0; }
+    }
+
+    .card-header-info {
+        margin-bottom: 0 !important;
+    }
+
+    textarea {
+        min-height: 200px;
+    }
+
+    .form-group-file {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        height: calc(100% - 1rem);
+        
+        .form-control {
+            height: 100%;
+        }
+    }
+
+
+}
