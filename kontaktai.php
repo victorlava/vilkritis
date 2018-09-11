@@ -9,21 +9,23 @@
 
         <section class="section section-wide">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
-                <div class="shape shape-circle shape-circle-1"></div>
             </div>
             <div class="section-text">
                 <h1>
                     Kontaktai
+                    <div class="shape shape-circle shape-circle-1 paroller shape-horizontal"></div>
+                    <div class="shape shape-circle shape-circle-2 paroller shape-horizontal"></div>
                 </h1>
                 <p>Granito g. 7, LT02241 Vilnius, Lietuva</p>
                 <p>Tel.: +370 5 2691102</p>
                 <p>Faks.: +370 5 2691103</p>
                 <p>El. paštas: info@vilkritis.com</p>
                 <p>PVM mokėtojo kodas: LT248525515</p>
+                <div class="shape shape-circle shape-circle-3 paroller shape-vertical"></div>
             </div>
         </section>
 
-        <section class="section pt-2 pl-2 pr-2">
+        <section class="section pt-4 pl-2 pr-2">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -107,6 +109,7 @@
                         </div>
                     </div>
                 </div>
+                <div class="shape shape-oval paroller shape-vertical"></div>
             </div>
         </section>
 

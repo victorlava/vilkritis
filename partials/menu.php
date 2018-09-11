@@ -10,6 +10,7 @@
         <a class="dropdown-item" href="ekologiskumas.php">ekologiskumas</a>
         <a class="dropdown-item" href="rd.php">rd</a>
         <a class="dropdown-item" href="tiekimas.php">tiekimas</a>
+        <a class="dropdown-item" href="colibri.php">colibri</a>
     </div>
 </li>
 <li class="nav-item">

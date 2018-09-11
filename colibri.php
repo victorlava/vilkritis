@@ -1,6 +1,6 @@
 <?php include('partials/head.php'); ?>
 
-<body id="rd">
+<body id="colibri">
     <!-- start of #home-page -->
 
     <?php include('partials/navigation-white.php'); ?>
@@ -9,17 +9,20 @@
 
         <section class="section section-wide">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
-                <div class="shape shape-circle shape-circle-1"></div>
             </div>
             <div class="section-text">
                 <h1>
                     ColibriPlast
+                    <div class="shape shape-circle shape-circle-1 paroller shape-horizontal"></div>
                 </h1>
                 <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
             </div>
+            <div class="shape shape-oval shape-oval-1 paroller shape-vertical"></div>
         </section>
 
         <section class="section section-gradient pr-md-3 pl-md-3">
+            <div class="shape shape-circle shape-circle-2 paroller shape-vertical"></div>
+            <div class="shape shape-circle shape-circle-3 paroller shape-vertical"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 d-flex align-items-center">

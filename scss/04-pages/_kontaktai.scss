@@ -1,4 +1,5 @@
 #kontaktai {
+    overflow-x: hidden;
     .card-contact {
 
     }
@@ -12,5 +13,48 @@
         @include media-breakpoint-up(xl) {
             font-size: $font-size-base;
         }
+    }
+
+    .section-text h1, .section-text {
+        position: relative;
+    }
+
+    .shape-circle-1 {
+            width: 50px;
+            height: 50px;
+            background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+            border-radius: 10rem;
+            top: -100px;
+            left: -50px;
+    }
+
+    .shape-circle-2 {
+          width: 167px;
+          height: 167px;
+          background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+          border-radius: 10rem;
+          right: -127px;
+          top: -50px;
+    }
+
+    .shape-circle-3 {
+          width: 100px;
+          height: 100px;
+          background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+          border-radius: 20rem;
+          bottom: -50px;
+          right: 200px;
+    }
+
+    .section {
+        position: relative;
+    }
+
+    .shape-oval {
+        width: 502px;
+        height: 701px;
+        left: 0;
+        bottom: -250px;
+        z-index: -1;
     }
 }

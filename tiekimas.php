@@ -9,11 +9,12 @@
 
         <section class="section section-wide">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
-                <div class="shape shape-circle shape-circle-1"></div>
             </div>
             <div class="section-text">
                 <h1>
                     Tiekimas
+                    <div class="shape shape-circle shape-circle-1 paroller shape-vertical"></div>
+                    <div class="shape shape-circle shape-circle-2 paroller shape-vertical"></div>
                 </h1>
                 <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
             </div>

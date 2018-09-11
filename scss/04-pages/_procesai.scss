@@ -1,0 +1,30 @@
+#procesai {
+    .shape-circle-1 {
+      width: 101px;
+      height: 101px;
+      background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+      bottom: 0;
+      left: 100px;
+
+    }
+
+    .shape-oval-1 {
+        width: 239px;
+        height: 430px;
+        transform: rotate(180deg);
+        right: 0;
+        top: 150px;
+    }
+
+    .shape-circle-2 {
+          width: 348.9px;
+          height: 348.9px;
+          background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+          bottom: 0;
+          left: -150px;
+    }
+
+    .section-gradient {
+        position: relative;
+    }
+}

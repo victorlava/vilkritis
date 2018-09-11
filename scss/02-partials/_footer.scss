@@ -5,6 +5,8 @@
     padding-bottom: 1.363rem;
     font-size: 0.818rem;
     text-align: center;
+    position: relative;
+    z-index: 1;
 
     @include media-breakpoint-up(md) {
         text-align: left;

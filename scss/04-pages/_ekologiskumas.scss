@@ -1,0 +1,28 @@
+#ekologiskumas {
+    .shape-circle-1 {
+         width: 130px;
+         height: 130px;
+         background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+         top: -130px;
+         right: 0;
+
+    }
+
+    .shape-oval-1 {
+      width: 123px;
+      height: 270px;
+      right: 0;
+      transform: rotate(180deg);
+      // background-image: linear-gradient(to top, #5f59b3, #6e67ce);
+    }
+
+    .shape-oval-2 {
+          width: 222px;
+          height: 445px;
+          left: 0;
+          bottom: 100px;
+    }
+    .section {
+        position: relative;
+    }
+}

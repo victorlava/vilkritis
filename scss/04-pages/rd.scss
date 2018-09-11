@@ -1,8 +1,49 @@
 #rd {
     .section-image {
         min-height: 270px;
+        position: relative;
         @include media-breakpoint-up(md) {
 			min-height: 470px;
 	    }
     }
+
+    .shape-circle-1  {
+        width: 144px;
+         height: 144px;
+         background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+         right: -150px;
+         top: 150px;
+         z-index: -1;
+    }
+
+    .section-text { position: relative; }
+
+    .shape-circle-2  {
+
+      width: 66.4px;
+      height: 66.4px;
+      bottom: -50px;
+      right: 300px;
+      background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+
+    }
+
+    .shape-circle-3  {
+         width: 348.9px;
+         height: 348.9px;
+         background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+         bottom: -150px;
+         left: 100px;
+         z-index: 0;
+    }
+
+    .shape-oval-green {
+          top: 0;
+          left: 0;
+          width: 261px;
+          height: 430px;
+
+    }
+
+    .section-gradient { position: relative; }
 }

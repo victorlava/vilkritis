@@ -11,5 +11,16 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
 	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script src="js/jquery.paroller.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.paroller.shape-vertical').paroller(
+				{ factor: 1, factorXs: 0.2, type: 'foreground', direction: 'vertical' }
+			);
 
+			$('.paroller.shape-horizontal').paroller(
+				{ factor: .3, factorXs: 0.2, type: 'foreground', direction: 'horizontal' }
+			);
+		})
+	</script>
 </head>

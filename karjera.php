@@ -9,7 +9,7 @@
 
         <section class="section section-wide">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
-                <div class="shape shape-circle shape-circle-1"></div>
+                <div class="shape shape-circle shape-circle-1 paroller shape-vertical"></div>
             </div>
             <div class="section-text">
                 <h1>
@@ -146,6 +146,9 @@
                               </div>
                             </div>
                           </div>
+                        </div>
+                        <div class="shape shape-circle shape-circle-2 paroller shape-vertical">
+
                         </div>
                     </div>
                 </div>

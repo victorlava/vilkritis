@@ -8,8 +8,13 @@
         background-image: url('img/combined-shape.svg');
     }
 
+    &.shape-oval-green {
+        background-image: url('img/combined-shape-green.svg');
+    }
+
     &.shape-circle {
         background-image: url('img/oval-5.svg');
+        border-radius: 20rem;
     }
 
     &.shape-cta{

@@ -20,7 +20,7 @@
         </section>
 
         <div class="jumbotron">
-          <div class="shape shape-oval"></div>
+          <div class="shape shape-oval paroller shape-vertical"></div>
           <div class="container">
               <h2>Apie mus</h2>
               <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -28,8 +28,8 @@
           <div class="jumbotron-media" style="background-image:url('img/rectangle-7.jpg');">
 
           </div>
-          <div class="shape shape-circle shape-circle-1"></div>
-          <div class="shape shape-circle shape-circle-2"></div>
+          <div class="shape shape-circle paroller shape-circle-1 shape-horizontal"></div>
+          <div class="shape shape-circle paroller shape-circle-2 shape-horizontal"></div>
         </div>
 
         <section class="section section-shadow">

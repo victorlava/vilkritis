@@ -3,4 +3,26 @@
         margin-bottom: 1.5rem;
     }
     .col-lg-4:last-child .section-media { margin-bottom: 0; }
+
+    .shape-circle-1 {
+        width: 100px;
+         height: 100px;
+         background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+         border-radius: 10rem;
+         top: -100px;
+         right: 100px;
+    }
+
+    .shape-circle-2 {
+        width: 293px;
+        height: 293px;
+        border-radius: 10rem;
+        bottom: -200px;
+        right: -100px;
+        background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+    }
+
+    .section-text h1 {
+        position: relative;
+    }
 }

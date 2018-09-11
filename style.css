@@ -7998,6 +7998,8 @@ blockquote {
   padding-bottom: 1.363rem;
   font-size: 0.818rem;
   text-align: center;
+  position: relative;
+  z-index: 1;
 }
 
 @media (min-width: 768px) {
@@ -8167,35 +8169,36 @@ blockquote {
   background-image: linear-gradient(to bottom, #ffffff, #f0f2f7);
 }
 
-.section.section-text {
+.section .section-text {
   max-width: 830px;
-  margin: 0 auto;
   left: 0;
   right: 0;
-  padding: 6.81rem 2rem;
+  padding: 6.81rem 1rem;
+  position: relative;
 }
 
-.section.section-text h1 {
+.section .section-text h1 {
   font-size: 2.909rem;
+  position: relative;
   padding-bottom: .8rem;
 }
 
-.section.section-text a {
+.section .section-text a {
   color: #42bfa8;
   text-decoration: underline !important;
 }
 
-.section.section-text ul {
+.section .section-text ul {
   list-style: none;
   padding: .5rem 0;
 }
 
-.section.section-text ul li {
+.section .section-text ul li {
   padding: 0;
   padding-bottom: 1rem;
 }
 
-.section.section-text ul li:before {
+.section .section-text ul li:before {
   content: "•";
   color: #42bfa8;
   padding-right: 1rem;
@@ -8810,8 +8813,13 @@ blockquote {
   background-image: url("img/combined-shape.svg");
 }
 
+.shape.shape-oval-green {
+  background-image: url("img/combined-shape-green.svg");
+}
+
 .shape.shape-circle {
   background-image: url("img/oval-5.svg");
+  border-radius: 20rem;
 }
 
 .shape.shape-cta {
@@ -9115,6 +9123,103 @@ blockquote {
   padding-top: 1.2rem;
 }
 
+#procesai .shape-circle-1 {
+  width: 101px;
+  height: 101px;
+  background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+  bottom: 0;
+  left: 100px;
+}
+
+#procesai .shape-oval-1 {
+  width: 239px;
+  height: 430px;
+  transform: rotate(180deg);
+  right: 0;
+  top: 150px;
+}
+
+#procesai .shape-circle-2 {
+  width: 348.9px;
+  height: 348.9px;
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+  bottom: 0;
+  left: -150px;
+}
+
+#procesai .section-gradient {
+  position: relative;
+}
+
+#ekologiskumas .shape-circle-1 {
+  width: 130px;
+  height: 130px;
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+  top: -130px;
+  right: 0;
+}
+
+#ekologiskumas .shape-oval-1 {
+  width: 123px;
+  height: 270px;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+#ekologiskumas .shape-oval-2 {
+  width: 222px;
+  height: 445px;
+  left: 0;
+  bottom: 100px;
+}
+
+#ekologiskumas .section {
+  position: relative;
+}
+
+#apie .shape-oval-1 {
+  width: 356px;
+  height: 400px;
+  top: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+#colibri .section-gradient {
+  position: relative;
+}
+
+#colibri .shape-circle-1 {
+  width: 130px;
+  height: 130px;
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+  top: -130px;
+  right: -40px;
+}
+
+#colibri .shape-oval {
+  width: 187px;
+  height: 541px;
+  right: 0;
+  bottom: -187px;
+  transform: rotate(180deg);
+}
+
+#colibri .shape-circle-2 {
+  width: 516px;
+  height: 516px;
+  background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+  left: -250px;
+}
+
+#colibri .shape-circle-3 {
+  width: 194px;
+  bottom: 300px;
+  height: 194px;
+  right: 100px;
+  background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+}
+
 #tiekimas .section-media {
   margin-bottom: 1.5rem;
 }
@@ -9123,8 +9228,31 @@ blockquote {
   margin-bottom: 0;
 }
 
+#tiekimas .shape-circle-1 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+  border-radius: 10rem;
+  top: -100px;
+  right: 100px;
+}
+
+#tiekimas .shape-circle-2 {
+  width: 293px;
+  height: 293px;
+  border-radius: 10rem;
+  bottom: -200px;
+  right: -100px;
+  background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+}
+
+#tiekimas .section-text h1 {
+  position: relative;
+}
+
 #rd .section-image {
   min-height: 270px;
+  position: relative;
 }
 
 @media (min-width: 768px) {
@@ -9133,15 +9261,74 @@ blockquote {
   }
 }
 
+#rd .shape-circle-1 {
+  width: 144px;
+  height: 144px;
+  background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+  right: -150px;
+  top: 150px;
+  z-index: -1;
+}
+
+#rd .section-text {
+  position: relative;
+}
+
+#rd .shape-circle-2 {
+  width: 66.4px;
+  height: 66.4px;
+  bottom: -50px;
+  right: 300px;
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+}
+
+#rd .shape-circle-3 {
+  width: 348.9px;
+  height: 348.9px;
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+  bottom: -150px;
+  left: 100px;
+  z-index: 0;
+}
+
+#rd .shape-oval-green {
+  top: 0;
+  left: 0;
+  width: 261px;
+  height: 430px;
+}
+
+#rd .section-gradient {
+  position: relative;
+}
+
 #karjera .section-image {
   position: relative;
 }
 
-#karjera .section-image .shape-circle {
+#karjera .section-image .shape-circle-1 {
   width: 167px;
   height: 167px;
   bottom: -43px;
   right: -43px;
+}
+
+#karjera .shape-circle-2 {
+  width: 50px;
+  height: 50px;
+  right: -103px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+  border-radius: 10rem;
+}
+
+#karjera .accordion {
+  position: relative;
+}
+
+#kontaktai {
+  overflow-x: hidden;
 }
 
 #kontaktai textarea {
@@ -9158,4 +9345,47 @@ blockquote {
   #kontaktai .card-contact p {
     font-size: 1rem;
   }
+}
+
+#kontaktai .section-text h1, #kontaktai .section-text {
+  position: relative;
+}
+
+#kontaktai .shape-circle-1 {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+  border-radius: 10rem;
+  top: -100px;
+  left: -50px;
+}
+
+#kontaktai .shape-circle-2 {
+  width: 167px;
+  height: 167px;
+  background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
+  border-radius: 10rem;
+  right: -127px;
+  top: -50px;
+}
+
+#kontaktai .shape-circle-3 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+  border-radius: 20rem;
+  bottom: -50px;
+  right: 200px;
+}
+
+#kontaktai .section {
+  position: relative;
+}
+
+#kontaktai .shape-oval {
+  width: 502px;
+  height: 701px;
+  left: 0;
+  bottom: -250px;
+  z-index: -1;
 }
