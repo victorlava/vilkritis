@@ -18,6 +18,10 @@
         transform: translateY(-50%);
       background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
       border-radius: 10rem;
+      display: none;
+      @include media-breakpoint-up(lg) {
+          display: block;
+      }
     }
     .accordion {
         position: relative;

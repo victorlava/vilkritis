@@ -14,6 +14,10 @@
         transform: rotate(180deg);
         right: 0;
         top: 150px;
+        display: none;
+        @include media-breakpoint-up(lg) {
+            display: block;
+        }
     }
 
     .shape-circle-2 {
@@ -22,6 +26,10 @@
           background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
           bottom: 0;
           left: -150px;
+          display: none;
+          @include media-breakpoint-up(lg) {
+              display: block;
+          }
     }
 
     .section-gradient {

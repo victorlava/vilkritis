@@ -19,7 +19,7 @@
             <div class="shape shape-oval shape-oval-1 paroller shape-vertical"></div>
         </section>
 
-        <section class="section pt-4 pb-2 pl-4 pr-4">
+        <section class="section pt-4 pb-2 pl-lg-4 pr-lg-4">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6 col-xl-6 col-xxl-3">
@@ -54,7 +54,7 @@
             </div>
         </section>
 
-        <section class="section section-bubble">
+        <section class="section section-bubble mb-3 mb-xl-0">
             <div class="container-fluid">
                 <div class="col-md-6">
                     <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more. The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
@@ -62,13 +62,13 @@
             </div>
         </section>
 
-        <div class="jumbotron mb-4">
+        <div class="jumbotron mb-0 mb-lg-4">
           <div class="jumbotron-media jumbotron-media-left" style="background-image:url('img/rectangle-7.jpg');">
           </div>
           <div class="container">
-             <div class="col-md-7 offset-md-5">
-                 <h2>Ekologiška produkcija</h2>
-                 <p class="pb-2">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+             <div class="col-lg-7 offset-lg-5">
+                 <h2 class="pt-1">Ekologiška produkcija</h2>
+                 <p class="pb-1 pb-lg-2">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
                  <a href="#" class="btn btn-secondary">Plačiau</a>
              </div>
           </div>

@@ -13,7 +13,11 @@
          background-image: linear-gradient(to bottom, #42bfa8, #39a591);
          right: -150px;
          top: 150px;
+         display: none;
          z-index: -1;
+         @include media-breakpoint-up(lg) {
+             display: block;
+         }
     }
 
     .section-text { position: relative; }
@@ -35,6 +39,10 @@
          bottom: -150px;
          left: 100px;
          z-index: 0;
+         display: none;
+         @include media-breakpoint-up(lg) {
+             display: block;
+         }
     }
 
     .shape-oval-green {

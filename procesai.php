@@ -7,7 +7,7 @@
 
     <main>
 
-        <section class="section section-wide pb-5">
+        <section class="section section-wide pb-lg-4">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
             </div>
             <div class="section-text">
@@ -20,7 +20,7 @@
             <div class="shape shape-oval-green shape-oval-1 paroller shape-vertical"></div>
         </section>
 
-        <section class="section section-gradient pl-3 pr-3">
+        <section class="section section-gradient pl-lg-2 pr-lg-2 pl-xl-3 pr-xl-3">
             <div class="shape shape-circle shape-circle-2 paroller shape-vertical"></div>
             <div class="container-fluid">
                 <div class="row">

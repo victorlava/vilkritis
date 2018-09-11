@@ -18,8 +18,12 @@
         width: 187px;
         height: 541px;
         right: 0;
-        bottom: -187px;
+        top: 50px;
+        display: none;
         transform: rotate(180deg);
+        @include media-breakpoint-up(xl) {
+            display: block;
+        }
     }
 
     .shape-circle-2 {

@@ -3,7 +3,7 @@
 
 
     p {
-        max-width: 687px;
+        max-width: 627px;
         padding-bottom: 5rem;
     }
 
@@ -11,16 +11,19 @@
 
     .jumbotron-media {
         position: relative;
-        height: 140%;
-        z-index: 4;
-        background-size: cover;
-        width: 30%;
-        background-color: black;
-        position: absolute;
-        right: 0;
-        top: -20%;
         border-radius: 3px;
+        min-height: 200px;
         box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+        @include media-breakpoint-up(lg) {
+            height: 140%;
+            z-index: 4;
+            background-size: cover;
+            width: 30%;
+            background-color: black;
+            position: absolute;
+            right: 0;
+            top: -20%;
+        }
 
     }
 

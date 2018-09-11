@@ -21,8 +21,15 @@
           height: 445px;
           left: 0;
           bottom: 100px;
+          display: none;
     }
     .section {
         position: relative;
+    }
+
+    @include media-breakpoint-up(lg) {
+        .shape-oval-green {
+            display: block;
+        }
     }
 }

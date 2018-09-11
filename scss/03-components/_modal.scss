@@ -30,6 +30,8 @@
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
+        min-height: 200px;
+        margin-bottom: 1rem;
         background-image: url('img/rectangle-5.jpg');
     }
 
@@ -53,6 +55,7 @@
         border-radius: 23px;
         font-size: 16px;
         padding: .54rem .7rem;
+        margin-bottom: 7px;
     }
 
     .modal-footer {

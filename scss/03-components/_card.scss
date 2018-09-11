@@ -12,6 +12,7 @@
         background-color: transparent;
         border: 0 !important;
         padding: 0 2rem;
+        margin-bottom: 1rem;
 
         &:last-child {
             border: 0 !important;
@@ -38,12 +39,15 @@
                 bottom: 0;
                 top: 50%;
                 transform: translateY(-50%);
-                left: -100px;
+                left: 0;
                 margin: auto;
                 font-size: 6.36rem;
                 color: white;
                 font-weight: 600;
                 text-shadow: #191c1e 1px 0px 0px, #191c1e 0.540302px 0.841471px 0px, #191c1e -0.416147px 0.909297px 0px, #191c1e -0.989992px 0.14112px 0px, #191c1e -0.653644px -0.756802px 0px, #191c1e 0.283662px -0.958924px 0px, #191c1e 0.96017px -0.279415px 0px;
+                @include media-breakpoint-up(lg) {
+                    left: -100px;
+                }
             }
         }
     }
@@ -75,15 +79,20 @@
         color: white;
         padding: 1rem;
         position: relative;
+        margin-bottom: 5rem;
 
         .card-title {
             text-align: center;
             position: absolute;
-            top: -70px;
+            top: -50px;
             left: 0;
             right: 0;
             margin: 0 auto;
-            font-size: 6.36rem;
+            font-size: 6.06rem;
+            @include media-breakpoint-up(lg) {
+                display: block;
+                top: -70px;
+            }
         }
 
         .card-subtitle {

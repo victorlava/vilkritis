@@ -19,7 +19,11 @@
         border-radius: 10rem;
         bottom: -200px;
         right: -100px;
+        display: none;
         background-image: linear-gradient(to bottom, #42bfa8, #39a591);
+        @include media-breakpoint-up(xl) {
+            display: block;
+        }
     }
 
     .section-text h1 {

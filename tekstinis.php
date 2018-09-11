@@ -6,7 +6,7 @@
     <?php include('partials/navigation-white.php'); ?>
 
     <main>
-        <section class="section section-text pt-5">
+        <section class="section section-text pt-4 pt-lg-5   ">
 
                 <h1>Tekstinis puslapis</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae proin sagittis nisl rhoncus mattis. Ipsum dolor sit amet consectetur adipiscing elit. Massa ultricies mi quis hendrerit dolor magna eget est lorem. Aenean et tortor at risus. Netus et malesuada fames ac turpis egestas. Lectus nulla at volutpat diam ut venenatis tellus in metus. Aliquam sem et tortor consequat. Et netus et malesuada fames. Posuere morbi leo urna molestie at elementum eu facilisis sed. Sagittis eu volutpat odio facilisis mauris. Neque gravida in fermentum et sollicitudin ac orci. Sagittis eu volutpat odio facilisis mauris sit amet massa vitae. Nisl rhoncus mattis rhoncus urna neque viverra justo nec.</p>

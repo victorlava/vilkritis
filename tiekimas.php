@@ -76,7 +76,7 @@
 
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-7">
+                                                        <div class="col-md-7 pt-1 pt-lg-0">
                                                             <p>
                                                                 The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.
                                                             </p>

@@ -35,6 +35,10 @@
           border-radius: 10rem;
           right: -127px;
           top: -50px;
+          display: none;
+          @include media-breakpoint-up(lg) {
+              display: block;
+          }
     }
 
     .shape-circle-3 {
@@ -51,10 +55,13 @@
     }
 
     .shape-oval {
-        width: 502px;
+        width: 302px;
         height: 701px;
         left: 0;
         bottom: -250px;
         z-index: -1;
+        @include media-breakpoint-up(lg) {
+            width: 502px;
+        }
     }
 }

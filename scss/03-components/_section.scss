@@ -23,6 +23,7 @@
         right: 0;
         padding: 6.81rem 1rem;
         position: relative;
+        overflow-x: hidden;
 
         h1 {
             font-size: $font-size-2;
@@ -33,6 +34,10 @@
         a {
             color: $color-secondary;
             text-decoration: underline !important;
+        }
+
+        p {
+            z-index: 1;
         }
 
         ul {
@@ -55,13 +60,26 @@
     }
 
     &.section-bubble {
-        min-height: 1200px;
-        background-position: center right;
-        background-size: 820px 850px;
+        background-position: bottom right;
+        background-size: 110px 125px;
         background-repeat: no-repeat;
         background-image: url('img/bubble.svg');
+
+        @include media-breakpoint-up(md) {
+            background-size: 310px 325px;
+            background-position: center right;
+        }
+
+        @include media-breakpoint-up(xl) {
+            min-height: 1200px;
+            background-size: 720px 750px;
+            background-position: center right;
+        }
         p {
-            padding-top: 10rem;
+
+            @include media-breakpoint-up(xl) {
+                padding-top: 10rem;
+            }
         }
     }
 
@@ -79,6 +97,7 @@
         background-color: $color-primary;
         background-size: cover;
         background-position: center center;
+        min-height: 250px;
     }
 
     .section-image-shadow {
@@ -94,6 +113,7 @@
             bottom: 10px;
             left: 20px;
             color: white;
+            padding-right: 20px;
         }
 
     }

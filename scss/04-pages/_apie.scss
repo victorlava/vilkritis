@@ -2,8 +2,12 @@
     .shape-oval-1 {
         width: 356px;
         height: 400px;
-        top: 0;
+        top: -100px;
         right: 0;
         transform: rotate(180deg);
+        display: none;
+        @include media-breakpoint-up(lg) {
+            display: block;
+        }
     }
 }
