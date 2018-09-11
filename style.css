@@ -8570,7 +8570,8 @@ blockquote {
 }
 
 .modal .modal-header .close {
-  padding-right: 0;
+  margin-top: 8px;
+  padding: 0;
 }
 
 .modal .card-header-info {
@@ -8590,6 +8591,71 @@ blockquote {
 
 .modal .form-group-file .form-control {
   height: 100%;
+}
+
+.modal .modal-media {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url("img/rectangle-5.jpg");
+}
+
+.modal h6 {
+  font-size: 0.636rem;
+  line-height: 0.86;
+  letter-spacing: 2px;
+  color: #afb0b1;
+  text-transform: uppercase;
+  margin-bottom: .7rem;
+  font-weight: 500;
+}
+
+.modal li {
+  display: inline-block;
+  color: #FFF;
+  background-color: rgba(110, 103, 206, 0.6);
+  border-radius: 23px;
+  font-size: 16px;
+  padding: .54rem .7rem;
+}
+
+.modal .modal-footer {
+  padding: 0;
+  flex-direction: column;
+}
+
+.modal .modal-footer h6:after, .modal .modal-footer h6:before {
+  content: " ";
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: #afb0b1;
+  margin: 0 1rem 4px 1rem;
+}
+
+.modal .modal-footer .accordion-btn {
+  width: 100%;
+  max-width: none;
+  padding: 1.3rem;
+  margin-right: 0;
+}
+
+.modal .modal-footer textarea {
+  min-height: 130px;
+}
+
+.modal .modal-footer-title {
+  color: #191c1e;
+}
+
+.modal .modal-footer-title .dot {
+  width: 6px;
+  height: 6px;
+  background-color: #42bfa8;
+  border-radius: 10rem;
+  display: inline-block;
+  margin: 0 1rem 4px 1rem;
+  content: " ";
 }
 
 .form-group-file {
