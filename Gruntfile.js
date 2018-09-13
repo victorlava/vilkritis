@@ -34,10 +34,10 @@ module.exports = function(grunt) {
         files: 'scss/**/*.scss',
         tasks: ['sass']
       },
-      options: { 
+      options: {
         livereload: true,
         host: 'localhost',
-        port: 35728
+        port: 35731
       } //Add Live Reload Chrome Extension for this to work
     },
 

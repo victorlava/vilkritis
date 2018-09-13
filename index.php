@@ -19,7 +19,11 @@
             </div>
         </section>
 
-        <div class="jumbotron">
+        <div class="section-bird-1">
+
+        </div>
+
+        <div class="jumbotron mb-0">
           <div class="shape shape-oval paroller shape-vertical"></div>
           <div class="container">
               <h2>Apie mus</h2>
@@ -33,6 +37,9 @@
         </div>
 
         <section class="section section-shadow">
+            <div class="section-bird-2">
+
+            </div>
             <div class="container">
                 <div class="row pb-2">
                     <div class="col-12 text-center">
@@ -75,6 +82,7 @@
         </section>
 
         <section class="section section-carousel">
+
             <div class="container">
                 <div class="row text-center pb-lg-2">
                     <div class="col-12">

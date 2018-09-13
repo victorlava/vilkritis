@@ -1,3 +1,30 @@
+.section-bird-1 {
+    width: 797px;
+    height: 1035px;
+    position: absolute;
+    top: 0;
+    z-index: 1111;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center right;
+    background-image: url('img/trajektorija.png');
+}
+
+.section-bird-2 {
+    width: 570px;
+    height: 1209px;
+    position: absolute;
+    top: 0;
+    z-index: 1111;
+    right: 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top right;
+    background-image: url('img/trajektorija-2.png');
+}
+
+
 .section {
     padding: 3rem .75rem;
     overflow: hidden;
