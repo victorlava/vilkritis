@@ -71,12 +71,12 @@
                                                 </div>
                                                 <div class="modal-body">
                                                     <div class="row">
-                                                        <div class="col-md-5">
+                                                        <div class="col-lg-5">
                                                             <div class="modal-media" style="backround-image:url('img/rectangle-5.jpg')">
 
                                                             </div>
                                                         </div>
-                                                        <div class="col-md-7 pt-1 pt-lg-0">
+                                                        <div class="col-lg-7 pt-1 pt-lg-0">
                                                             <p>
                                                                 The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.
                                                             </p>
@@ -94,7 +94,10 @@
                                                     </div>
                                                 </div>
                                                 <div class="modal-footer">
-                                                    <button href="#" class="btn btn-secondary accordion-btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Susisiekti dėl produkto</button>
+                                                    <button href="#" class="btn btn-secondary accordion-btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                                        Susisiekti dėl produkto
+                                                        <span class="icon"></span>
+                                                    </button>
                                                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" aria-hidden="true">
                                                      <div class="card-body text-center">
                                                        <p class="modal-footer-title mt-1 mb-1">

@@ -32,15 +32,15 @@
                             <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="h-100 section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
 
                         </div>
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-6">
-                        <div class="h-100 section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
 
                         </div>
                     </div>
@@ -60,8 +60,8 @@
                             <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
-                        <div class="h-100 section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
 
                         </div>
                     </div>

@@ -30,15 +30,15 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="row mb-1">
-                            <div class="col-lg-7 col-xl-7">
+                            <div class="col-rekvizitai col-lg-7 col-xl-7">
 
                             </div>
-                            <div class="col-lg-5 col-xl-5">
+                            <div class="col-forma col-lg-5 col-xl-5">
                                 <h2>Susisiekite su mumis</h2>
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-lg-7 col-xl-7">
+                            <div class="col-rekvizitai col-lg-7 col-xl-7">
                                 <div class="row mb-1">
                                     <div class="col-12 col-sm-6 mb-1">
                                         <div class="card card-contact">
@@ -72,7 +72,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-5 col-xl-5">
+                            <div class="col-forma col-lg-5 col-xl-5">
                                 <form>
                                   <div class="row form-group">
                                     <div class="col">

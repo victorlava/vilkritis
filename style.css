@@ -4188,7 +4188,7 @@ button.close {
 
 @media (min-width: 576px) {
   .modal-dialog {
-    max-width: 500px;
+    max-width: 700px;
     margin: 1.75rem auto;
   }
   .modal-dialog-centered {
@@ -8154,6 +8154,7 @@ blockquote {
 
 .section {
   padding: 3rem .75rem;
+  overflow: hidden;
 }
 
 @media (min-width: 992px) {
@@ -8176,46 +8177,49 @@ blockquote {
   background-image: linear-gradient(to bottom, #ffffff, #f0f2f7);
 }
 
-.section .section-text {
-  max-width: 830px;
-  left: 0;
-  right: 0;
-  padding: 6.81rem 1rem;
-  position: relative;
-  overflow-x: hidden;
-}
-
-.section .section-text h1 {
-  font-size: 2.909rem;
-  position: relative;
-  padding-bottom: .8rem;
-}
-
-.section .section-text a {
-  color: #42bfa8;
-  text-decoration: underline !important;
-}
-
-.section .section-text p {
-  z-index: 1;
-}
-
-.section .section-text ul {
+.section.section-text ul {
   list-style: none;
   padding: .5rem 0;
 }
 
-.section .section-text ul li {
+.section.section-text ul li {
   padding: 0;
   padding-bottom: 1rem;
 }
 
-.section .section-text ul li:before {
+.section.section-text ul li:before {
   content: "•";
   color: #42bfa8;
   padding-right: 1rem;
   font-size: 2.045rem;
   vertical-align: middle;
+}
+
+.section.section-text {
+  margin: 0 auto;
+}
+
+.section .section-text, .section.section-text {
+  max-width: 830px;
+  left: 0;
+  right: 0;
+  padding: 6.81rem 1rem;
+  position: relative;
+}
+
+.section .section-text h1, .section.section-text h1 {
+  font-size: 2.909rem;
+  position: relative;
+  padding-bottom: .8rem;
+}
+
+.section .section-text a, .section.section-text a {
+  color: #42bfa8;
+  text-decoration: underline !important;
+}
+
+.section .section-text p, .section.section-text p {
+  z-index: 1;
 }
 
 .section.section-bubble {
@@ -8433,7 +8437,7 @@ blockquote {
 
 @media (min-width: 992px) {
   .section-wide {
-    min-height: 800px;
+    min-height: 1020px;
     height: auto;
   }
 }
@@ -8602,7 +8606,7 @@ blockquote {
   }
 }
 
-.slick-download .col-md-4:nth-child(even) .card-download {
+.slick-download .slick-current + div {
   box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
 }
 
@@ -8640,6 +8644,10 @@ blockquote {
 .modal .modal-header .close {
   margin-top: 8px;
   padding: 0;
+}
+
+.modal .modal-media {
+  max-height: 380px;
 }
 
 .modal .card-header-info {
@@ -8711,6 +8719,26 @@ blockquote {
   margin-right: 0;
 }
 
+.modal .modal-footer button .icon {
+  background-size: 100%;
+  background-position: center center;
+  width: 10px;
+  height: 10px;
+  display: block;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 5px;
+  margin-top: -1px;
+}
+
+.modal .modal-footer button[aria-expanded="false"] .icon {
+  background-image: url("img/chevron-up.svg");
+}
+
+.modal .modal-footer button[aria-expanded="true"] .icon {
+  background-image: url("img/chevron-down.svg");
+}
+
 .modal .modal-footer textarea {
   min-height: 130px;
 }
@@ -8736,7 +8764,6 @@ blockquote {
 .form-group-file label {
   display: block;
   width: 100%;
-  height: 100%;
   padding: 0.822rem 1.09rem;
   font-size: 1rem;
   line-height: 0.86;
@@ -8752,6 +8779,12 @@ blockquote {
   align-items: center;
   justify-content: center;
   text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .form-group-file label {
+    height: 100%;
+  }
 }
 
 .form-group-file label p {
@@ -8855,18 +8888,22 @@ blockquote {
   }
 }
 
-.carousel img {
+.carousel .carousel-image {
   position: relative;
   top: 0;
   z-index: 2;
   height: 100%;
   width: 100%;
+  height: 280px;
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (min-width: 992px) {
-  .carousel img {
+  .carousel .carousel-image {
     margin: 2rem 0 2rem 1rem;
     width: 60%;
+    height: 491px;
     box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
   }
 }
@@ -9431,11 +9468,12 @@ blockquote {
 #rd .section-image {
   min-height: 270px;
   position: relative;
+  width: 100%;
 }
 
 @media (min-width: 768px) {
   #rd .section-image {
-    min-height: 470px;
+    min-height: 370px;
   }
 }
 
@@ -9540,12 +9578,6 @@ blockquote {
   }
 }
 
-@media (min-width: 1200px) {
-  #kontaktai .card-contact p {
-    font-size: 1rem;
-  }
-}
-
 #kontaktai .section-text h1, #kontaktai .section-text {
   position: relative;
 }
@@ -9580,8 +9612,8 @@ blockquote {
   height: 100px;
   background-image: linear-gradient(to bottom, #42bfa8, #39a591);
   border-radius: 20rem;
-  bottom: -50px;
-  right: 200px;
+  top: 250px;
+  right: 150px;
 }
 
 #kontaktai .section {
@@ -9599,5 +9631,17 @@ blockquote {
 @media (min-width: 992px) {
   #kontaktai .shape-oval {
     width: 502px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #kontaktai .col-rekvizitai {
+    flex: 0 0 45%;
+    max-width: 45%;
+  }
+  #kontaktai .col-forma {
+    flex: 0 0 55%;
+    max-width: 55%;
+    padding-left: 5.45rem;
   }
 }

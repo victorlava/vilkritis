@@ -7,6 +7,10 @@
         }
     }
 
+    .modal-media {
+        max-height: 380px;
+    }
+
     .card-header-info {
         margin-bottom: 0 !important;
     }
@@ -76,6 +80,26 @@
             max-width: none;
             padding: 1.3rem;
             margin-right: 0;
+        }
+
+        button .icon {
+            background-size: 100%;
+            background-position: center center;
+            width: 10px;
+            height: 10px;
+            display: block;
+            background-repeat: no-repeat;
+            display: inline-block;
+            margin-left: 5px;
+            margin-top: -1px;
+        }
+
+        button[aria-expanded="false"] .icon {
+            background-image:url('img/chevron-up.svg');
+        }
+
+        button[aria-expanded="true"] .icon {
+            background-image:url('img/chevron-down.svg');
         }
 
         textarea { min-height: 130px; }

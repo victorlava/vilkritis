@@ -2,8 +2,9 @@
     .section-image {
         min-height: 270px;
         position: relative;
+        width: 100%;
         @include media-breakpoint-up(md) {
-			min-height: 470px;
+			min-height: 370px;
 	    }
     }
 

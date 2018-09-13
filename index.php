@@ -90,21 +90,21 @@
                       </ol>
                       <div class="carousel-inner">
                         <div class="carousel-item active">
-                          <img class="d-block" src="img/rectangle-11.jpg" alt="First slide">
+                          <div class="carousel-image" style="background-image:url('img/rectangle-11.jpg');"></div>
                           <div class="carousel-text">
                               <h4>Greitis ir lankstumas</h4>
                               <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img class="d-block" src="img/rectangle-11.jpg" alt="Second slide">
+                          <div class="carousel-image" style="background-image:url('img/rectangle-11.jpg');"></div>
                           <div class="carousel-text">
                               <h4>Greitis ir lankstumas</h4>
                               <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
                           </div>
                         </div>
                         <div class="carousel-item">
-                          <img class="d-block" src="img/rectangle-11.jpg" alt="Third slide">
+                          <div class="carousel-image" style="background-image:url('img/rectangle-11.jpg');"></div>
                           <div class="carousel-text">
                               <h4>Greitis ir lankstumas</h4>
                               <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
