@@ -48,6 +48,34 @@
 
     }
 
+    .section-media-hoverable {
+        cursor: pointer;
+
+        h5 {
+            &:after {
+                content: " ";
+                display: block;
+                background-size: 100%;
+                width: 16px;
+                height: 16px;
+                background-repeat: no-repeat;
+                background-position: center center;
+                background-image: url('img/arrow-right.svg');
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px;
+                transform: translateX(500%);
+                transition: all 0.3s ease;
+                // background-color: white;
+            }
+        }
+
+        &:hover h5:after {
+            transform: translateX(0);
+        }
+
+    }
+
     .tab-content {
         padding: 3rem 2.27rem 1.27rem 2.27rem;
         box-shadow: 0 25px 40px 0px rgba(0, 0, 0, 0.1);

@@ -1,5 +1,6 @@
 .section-bird-1 {
-    width: 797px;
+    pointer-events: none;
+    width: 697px;
     height: 1035px;
     position: absolute;
     top: 0;
@@ -9,9 +10,14 @@
     background-size: 100%;
     background-position: center right;
     background-image: url('img/trajektorija.png');
+
+    @include media-breakpoint-up(xl) {
+        width: 797px;
+    }
 }
 
 .section-bird-2 {
+    pointer-events: none;
     width: 570px;
     height: 1209px;
     position: absolute;
@@ -22,6 +28,10 @@
     background-size: 100%;
     background-position: top right;
     background-image: url('img/trajektorija-2.png');
+
+    @include media-breakpoint-up(xl) {
+        width: 570px;
+    }
 }
 
 

@@ -8153,7 +8153,8 @@ blockquote {
 }
 
 .section-bird-1 {
-  width: 797px;
+  pointer-events: none;
+  width: 697px;
   height: 1035px;
   position: absolute;
   top: 0;
@@ -8165,7 +8166,14 @@ blockquote {
   background-image: url("img/trajektorija.png");
 }
 
+@media (min-width: 1200px) {
+  .section-bird-1 {
+    width: 797px;
+  }
+}
+
 .section-bird-2 {
+  pointer-events: none;
   width: 570px;
   height: 1209px;
   position: absolute;
@@ -8176,6 +8184,12 @@ blockquote {
   background-size: 100%;
   background-position: top right;
   background-image: url("img/trajektorija-2.png");
+}
+
+@media (min-width: 1200px) {
+  .section-bird-2 {
+    width: 570px;
+  }
 }
 
 .section {
@@ -8386,6 +8400,30 @@ blockquote {
   border: 1px solid #d3d3d3;
   background-color: #f9f9f9;
   border-radius: 0;
+}
+
+.section-tabs .section-media-hoverable {
+  cursor: pointer;
+}
+
+.section-tabs .section-media-hoverable h5:after {
+  content: " ";
+  display: block;
+  background-size: 100%;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("img/arrow-right.svg");
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  transform: translateX(500%);
+  transition: all 0.3s ease;
+}
+
+.section-tabs .section-media-hoverable:hover h5:after {
+  transform: translateX(0);
 }
 
 .section-tabs .tab-content {
