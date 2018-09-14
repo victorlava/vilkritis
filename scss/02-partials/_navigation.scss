@@ -88,5 +88,8 @@
 		font-size: $font-size-5;
 	}
 
+	.dropdown:hover>.dropdown-menu {
+	  display: block;
+	}
 
 }
