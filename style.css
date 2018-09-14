@@ -8410,20 +8410,21 @@ blockquote {
   content: " ";
   display: block;
   background-size: 100%;
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("img/arrow-right.svg");
+  background-image: url("img/arrow-right-white.svg");
   display: inline-block;
   vertical-align: middle;
   margin-left: 10px;
-  transform: translateX(500%);
+  position: relative;
+  right: -350px;
   transition: all 0.3s ease;
 }
 
 .section-tabs .section-media-hoverable:hover h5:after {
-  transform: translateX(0);
+  right: 0;
 }
 
 .section-tabs .tab-content {
@@ -9169,6 +9170,32 @@ blockquote {
   .card.card-process figure.card-media figcaption {
     left: -100px;
   }
+}
+
+.card .btn-link-hoverable {
+  cursor: pointer;
+}
+
+.card .btn-link-hoverable:after {
+  content: " ";
+  display: block;
+  background-size: 100%;
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("img/arrow-right-blue.svg");
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  transform: translateX(500%);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.card .btn-link-hoverable:hover:after {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .card.card-download {

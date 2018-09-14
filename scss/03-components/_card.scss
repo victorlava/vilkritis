@@ -52,6 +52,34 @@
         }
     }
 
+    .btn-link-hoverable {
+        cursor: pointer;
+
+        &:after {
+            content: " ";
+            display: block;
+            background-size: 100%;
+            width: 12px;
+            height: 12px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-image: url('img/arrow-right-blue.svg');
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+            transform: translateX(500%);
+            transition: all 0.3s ease;
+            opacity: 0;
+            // background-color: white;
+        }
+
+        &:hover:after {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+
 
     &.card-download {
         border-color: transparent !important;
