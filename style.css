@@ -8067,6 +8067,10 @@ blockquote {
   z-index: 2;
 }
 
+.navigation .dropdown-menu {
+  top: 95% !important;
+}
+
 @media (min-width: 992px) {
   .navigation {
     background: transparent;
@@ -8166,13 +8170,21 @@ blockquote {
   right: 0;
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position: center right;
   background-image: url("img/trajektorija.png");
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .section-bird-1 {
+    display: block;
+    background-position: 100px 50px;
+  }
 }
 
 @media (min-width: 1200px) {
   .section-bird-1 {
     width: 797px;
+    background-position: 0px -20px;
   }
 }
 
@@ -8323,10 +8335,29 @@ blockquote {
 .section .section-media-hoverable {
   border-radius: 3px;
   position: relative;
-  background-blend-mode: darken;
+  background-blend-mode: multiply;
+  overflow: hidden;
+}
+
+.section .section-media-hoverable:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(25, 28, 30, 0.6));
+  opacity: 0.1;
+  z-index: 0;
+  transition: all 0.3s ease;
+}
+
+.section .section-media-hoverable:hover:after {
+  opacity: 0.4;
 }
 
 .section .section-media-hoverable h5 {
+  z-index: 2;
   position: absolute;
   bottom: 10px;
   left: 20px;
@@ -8408,6 +8439,7 @@ blockquote {
 
 .section-tabs .section-media-hoverable {
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 .section-tabs .section-media-hoverable h5:after {
@@ -8929,7 +8961,7 @@ blockquote {
   padding: 1.2rem;
   font-size: 16px;
   background-color: white;
-  box-shadow: 0 1px 0px 0 rgba(25, 28, 30, 0.25), 0 -1px 0px 0 rgba(25, 28, 30, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
 }
 
 .carousel .carousel-item .carousel-text h4 {
@@ -9300,6 +9332,7 @@ blockquote {
 
 .card .card-header h4:hover {
   color: #6e67ce;
+  transition: all 0.3s ease;
 }
 
 .card .card-header h4:after {
@@ -9609,7 +9642,7 @@ blockquote {
   width: 348.9px;
   height: 348.9px;
   background-image: linear-gradient(to bottom, #6e67ce, #5f59b3);
-  bottom: -150px;
+  bottom: -250px;
   left: 100px;
   z-index: 0;
   display: none;

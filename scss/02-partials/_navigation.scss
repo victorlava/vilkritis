@@ -6,6 +6,10 @@
 	background: #dedede;
 	z-index: 2;
 
+	.dropdown-menu {
+		top: 95% !important;
+	}
+
 	@include media-breakpoint-up(lg) {
 		background: transparent;
 	}

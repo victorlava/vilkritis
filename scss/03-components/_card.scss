@@ -154,7 +154,7 @@
                 text-shadow: #afb0b1 1px 0px 0px, #afb0b1 0.540302px 0.841471px 0px, #afb0b1 -0.416147px 0.909297px 0px, #afb0b1 -0.989992px 0.14112px 0px, #afb0b1 -0.653644px -0.756802px 0px, #afb0b1 0.283662px -0.958924px 0px, #afb0b1 0.96017px -0.279415px 0px;
             }
         }
-    }
+}
 
     .card-header {
 
@@ -162,7 +162,7 @@
             position: relative;
             cursor: pointer;
 
-            &:hover { color: $color-primary; }
+            &:hover { color: $color-primary; transition: all 0.3s ease; }
 
             &:after {
                 width: 16px;
