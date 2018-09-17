@@ -7,7 +7,7 @@
 
     <main>
 
-        <section class="section section-wide pb-lg-4">
+        <section class="section section-wide mb-lg-4">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
             </div>
             <div class="section-text">

@@ -7,7 +7,7 @@
 
     <main>
 
-        <section class="section section-wide pb-3">
+        <section class="section section-wide mb-3">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
                 <div class="shape shape-circle shape-circle-1 paroller shape-horizontal"></div>
             </div>
