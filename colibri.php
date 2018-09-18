@@ -25,26 +25,26 @@
             <div class="shape shape-circle shape-circle-3 paroller shape-vertical"></div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex align-items-center order-1 order-md-2">
                         <div class="pl-1 pr-1">
                             <h2 class="mt-1">Investicijos</h2>
                             <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
                             <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-2 order-md-1">
                         <div class="h-100 section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
 
                         </div>
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-2">
                         <div class="h-100 section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
 
                         </div>
                     </div>
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex align-items-center order-1">
                         <div class="pl-1 pr-1">
                             <h2 class="mt-1">Investicijos</h2>
                             <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
@@ -53,14 +53,14 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <div class="col-md-6 d-flex align-items-center">
+                    <div class="col-md-6 d-flex align-items-center order-1 order-md-2">
                         <div class="pl-1 pr-1">
                             <h2 class="mt-1">Augantis spektras</h2>
                             <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling. Website usability, press releases, online media buys, podcasts, mobile marketing and more.</p>
                             <p>The collapse of the online-advertising market in 2001 made marketing on the Internet seem even less compelling.</p>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 order-2 order-md-1">
                         <div class="h-100 section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
 
                         </div>

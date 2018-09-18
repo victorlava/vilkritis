@@ -3,7 +3,7 @@
 <head>
 	<title>Arredo Deko</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<meta name="charset" content="UTF-8">
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>

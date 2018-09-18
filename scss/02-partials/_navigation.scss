@@ -50,25 +50,7 @@
 	    }
 	}
 
-	.nav-item-language-white {
 
-		@include media-breakpoint-up(lg) {
-			a.nav-link {
-				color: white;
-			}
-
-
-				a.nav-link {
-					&:active,
-					&:focus,
-					&:hover {
-						color: white;
-					}
-				}
-	    }
-
-
-	}
 
 
 	.navbar-logo-wrapper {
@@ -97,3 +79,23 @@
 	}
 
 }
+
+body:not(#tekstinis) .nav-item-language-white {
+
+		@include media-breakpoint-up(lg) {
+			a.nav-link {
+				color: white;
+			}
+
+
+				a.nav-link {
+					&:active,
+					&:focus,
+					&:hover {
+						color: white;
+					}
+				}
+	    }
+
+
+	}
