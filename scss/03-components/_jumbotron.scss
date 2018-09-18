@@ -14,10 +14,11 @@
         border-radius: 3px;
         min-height: 200px;
         box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+        background-size: cover;
+        background-repeat: no-repeat;
         @include media-breakpoint-up(lg) {
             height: 140%;
             z-index: 4;
-            background-size: cover;
             width: 30%;
             background-color: black;
             position: absolute;

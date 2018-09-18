@@ -8143,8 +8143,10 @@ blockquote {
   font-size: 0.818rem;
 }
 
-.navigation .dropdown:hover > .dropdown-menu {
-  display: block;
+@media (min-width: 992px) {
+  .navigation .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
 }
 
 @media (min-width: 992px) {
@@ -8196,11 +8198,13 @@ blockquote {
   background-size: 100%;
   background-position: top right;
   background-image: url("img/trajektorija-2.png");
+  display: none;
 }
 
 @media (min-width: 1200px) {
   .section-bird-2 {
     width: 570px;
+    display: block;
   }
 }
 
@@ -8573,13 +8577,14 @@ blockquote {
   border-radius: 3px;
   min-height: 200px;
   box-shadow: 0 0 40px 10px rgba(25, 28, 30, 0.1), 0 0 10px 1px rgba(0, 0, 0, 0.05);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 992px) {
   .jumbotron .jumbotron-media {
     height: 140%;
     z-index: 4;
-    background-size: cover;
     width: 30%;
     background-color: black;
     position: absolute;
@@ -8700,10 +8705,9 @@ blockquote {
   .slick-download {
     padding: 0;
   }
-}
-
-.slick-download .slick-current + div {
-  box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+  .slick-download .slick-current + div {
+    box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+  }
 }
 
 .slick-slide:focus, .slick-arrow:focus {
@@ -9485,6 +9489,14 @@ blockquote {
   height: 270px;
   right: 0;
   transform: rotate(180deg);
+  display: none;
+  top: -50px;
+}
+
+@media (min-width: 992px) {
+  #ekologiskumas .shape-oval-1 {
+    display: block;
+  }
 }
 
 #ekologiskumas .shape-oval-2 {

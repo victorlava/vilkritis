@@ -23,11 +23,12 @@
 
     @include media-breakpoint-up(lg) {
         padding: 0;
+        .slick-current + div {
+            box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
+        }
     }
 
-    .slick-current + div {
-        box-shadow: 0 1px 2px 0 rgba(25, 28, 30, 0.25), 0 -1px 1px 0 rgba(25, 28, 30, 0.1);
-    }
+
 }
 
 .slick-slide:focus, .slick-arrow:focus {

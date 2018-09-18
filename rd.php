@@ -7,7 +7,7 @@
 
     <main>
 
-        <section class="section section-wide mb-3">
+        <section class="section section-wide mb-0 mb-md-3">
             <div class="section-image" style="background-image:url('img/rectangle-copy.jpg');">
                 <div class="shape shape-circle shape-circle-1 paroller shape-horizontal"></div>
             </div>
@@ -20,10 +20,10 @@
             </div>
         </section>
 
-        <section class="section section-gradient pt-1 pr-md-3 pl-md-3">
+        <section class="section section-gradient pt-0 pt-md-1 pr-md-3 pl-md-3">
             <div class="shape shape-oval-green paroller shape-vertical"></div>
             <div class="container">
-                <div class="row mt-4">
+                <div class="row mt-2 mt-md-3">
                     <div class="col-md-6 d-flex align-items-center order-1 order-md-2">
                         <div class="pl-1 pr-1">
                             <h2 class="mt-1">Investicijos</h2>
@@ -37,7 +37,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
+                <div class="row mt-2 mt-md-3">
                     <div class="col-md-6 d-flex align-items-center order-2">
                         <div class="section-image section-image-shadow" style="background-image:url('img/rectangle-5.jpg');">
 
@@ -51,7 +51,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row mt-4">
+                <div class="row mt-2 mt-md-3">
                     <div class="col-md-6 d-flex align-items-center order-1 order-md-2">
                         <div class="pl-1 pr-1">
                             <h2 class="mt-1">Augantis spektras</h2>

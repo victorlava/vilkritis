@@ -13,6 +13,11 @@
       height: 270px;
       right: 0;
       transform: rotate(180deg);
+      display: none;
+      top: -50px;
+      @include media-breakpoint-up(lg) {
+          display: block;
+      }
       // background-image: linear-gradient(to top, #5f59b3, #6e67ce);
     }
 

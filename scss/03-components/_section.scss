@@ -34,9 +34,10 @@
     background-size: 100%;
     background-position: top right;
     background-image: url('img/trajektorija-2.png');
-
+    display: none;
     @include media-breakpoint-up(xl) {
         width: 570px;
+        display: block;
     }
 }
 
